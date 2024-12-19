@@ -4,7 +4,7 @@ echo " "
 echo " "
 echo " "
 echo " "
-mpv ~/storage/shared/sfx/Secret_Sound.mp3
+mpv ~/storage/shared/Torrent-Downloads/sfx/Cooking_Great.mp3
 clear
 echo '
 	████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
