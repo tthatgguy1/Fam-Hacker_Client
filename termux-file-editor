@@ -61,28 +61,28 @@ case $bxx in
 	;;
 esac
 #===========================================================================================================================================================================================#
-#        																																													#
-# 																%usage:																														#
-# 																cowsay <message>																											#
-# 																cowsay /<style> <message>																									#
-# 																cowsay /<cow> <message>																										#
-# 																cowsay /<cow> /<style> <message>																							#
-#																																															#
-# 																cow styles:																													#
-# 																/borg /dead /greedy /paranoid /stoned /tired /wired /young /think /joke														#
-#																																															#
-# 																cows: (e.g. cowsay /beavis)																									#
-# 																beavis           bong             budfrogs         bunny																	#
-# 																cheese           cow              cower            daemon																	#
-# 																dragon           dragonandcow     elephant         elephantinsnake															#
-# 																eyes             flamingsheep     ghostbusters     headin																	#
-# 																hellokitty       kiss             kitty            koala																	#
-# 																kosh             lukekoala        meow             milk																		#
-# 																moofasa          moose            mutilated        ren																		#
-# 																satanic          sheep            skeleton         stegosaurus																#
-# 																stimpy           supermilker      surgery          telebears																#
-# 																turkey           turtle           tux              vader																	#
-# 																vaderkoala       www																										#
-#																																															#
-#																																															#
+#        																						    #
+# 													%usage:							    	    		    #
+# 													cowsay <message>					    			    #
+# 													cowsay /<style> <message>							    #
+# 													cowsay /<cow> <message>								    #
+# 													cowsay /<cow> /<style> <message>						    #
+#																							    #
+# 													cow styles:									    #
+# 													/borg /dead /greedy /paranoid /stoned /tired /wired /young /think /joke		    #
+#																							    #
+# 													cows: (e.g. cowsay /beavis)							    #
+# 													beavis           bong             budfrogs         bunny			    #
+# 													cheese           cow              cower            daemon			    #
+# 													dragon           dragonandcow     elephant         elephantinsnake		    #
+# 													eyes             flamingsheep     ghostbusters     headin			    #
+# 													hellokitty       kiss             kitty            koala			    #
+# 													kosh             lukekoala        meow             milk				    #
+# 													moofasa          moose            mutilated        ren				    #
+# 													satanic          sheep            skeleton         stegosaurus			    #
+# 													stimpy           supermilker      surgery          telebears			    #
+# 													turkey           turtle           tux              vader			    #
+# 													vaderkoala       www								    #
+#																							    #
+#																							    #
 #===========================================================================================================================================================================================#
