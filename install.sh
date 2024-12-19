@@ -3,12 +3,19 @@ echo " "
 echo " "
 echo " "
 'date' | lolcat
+sleep 2
 echo " "
 echo " "
 echo " "
 echo "Updating default packages\n" | lolcat
+sleep 3
+echo " "
+echo " "
 echo " "
 pkg update && pkg upgrade -y
+sleep 2
+echo " "
+echo " "
 echo " "
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3
 echo " "
@@ -25,12 +32,8 @@ echo " "
 echo " "
 echo " "
 echo "Allow Storage Permission!" | lolcat
-sleep 3
-echo " "
-echo " "
-echo " "
 termux-setup-storage
-sleep 3
+sleep 2
 echo " "
 echo " "
 echo " "
@@ -45,9 +48,10 @@ sleep 3
 echo " "
 echo " "
 echo " "
-mkdir ~/storage/shared/Torrent-Downloads
-sleep 1
-sleep 1
+mkdir ~/storage/shared/Fam-Hacker_Directory
+sleep 2
+echo " "
+echo " "
 echo " "
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
@@ -55,20 +59,15 @@ sleep 3
 echo " "
 echo " "
 echo " "
-sleep 3
-echo " "
-echo " "
 mkdir ~/storage/shared/sfx
-mv ~/storage/shared/sfx ~/storage/shared/Torrent-Downloads/
-echo " "
+mv ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Directory/
 sleep 3
 echo " "
-mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Torrent-Downloads/sfx/Cooking_Great.mp3
-mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Torrent-Downloads/sfx/Secret_Sound.mp3
 echo " "
 echo " "
-echo " "
-sleep 3
+mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Directory/sfx/Cooking_Great.mp3
+mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Directory/sfx/Secret_Sound.mp3
+sleep 2
 echo " "
 echo " "
 echo " "
