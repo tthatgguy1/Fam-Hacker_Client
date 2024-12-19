@@ -10,7 +10,7 @@ echo "Updating default packages\n" | lolcat
 echo " "
 pkg update && pkg upgrade -y
 echo " "
-mpv ~/FH/data/Cooking_Great.mp3
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3
 echo " "
 echo " "
 echo " "
@@ -50,12 +50,12 @@ sleep 1
 echo " "
 echo " "
 echo " "
-mv ~/FH/data/Secret_Sound.mp3 ~/storage/Secret_Sound.mp3
+mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/Secret_Sound.mp3
 sleep 3
 echo " "
 echo " "
 echo " "
-mv ~/FH/data/Secret_Sound.mp3 ~/storage/Cooking_Great.mp3
+mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/Cooking_Great.mp3
 sleep 3
 echo " "
 echo " "
