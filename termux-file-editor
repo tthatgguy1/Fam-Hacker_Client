@@ -33,7 +33,7 @@ echo " "
 echo " "
 '
 
-aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Directory "/data/data/com.termux/files/home/downloads/${newf}"
+aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Directory "/data/data/com.termux/files/home/downloads/${newf}" 
 
 ' | lolcat
 echo " "
@@ -43,14 +43,14 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 
 # Quit Menu
 echo " "
-echo -e  "[\033[1;31mEnter\033[0m] Press Enter to \033[1;33mQuit\033[0m!"
+echo -e "[\033[1;31mEnter\033[0m] Press Enter to \033[1;33mQuit\033[0m\033[1;31m!\033[0m"
 echo " "
-echo -e  "\033[1;33m1\033[0m. [\033[1;31mDelete\033[0m] all the data in \033[1;33m-\033[0m [\033[5;33mNFS-T-Downloads\033[0m]."
+echo -e "\033[1;33m1\033[0m. [\033[1;31mDelete\033[0m] all the data in \033[1;33m-\033[0m [\033[1;31mNFS-T-Downloads\033[0m."
 read bxx                                                             
 
 case $bxx in
 
-	1) echo -e "\e[031m" "Are you sure you want to Delete all the data in NFS-T-Downloads folder(\033[5;33mY\033[0m/\033[5;38mn\033[0m)"
+	1) echo -e "\e[031m" "Are you sure you want to Delete all the data in NFS-T-Downloads folder(Y/n)"
 	
 	read xconf
 
@@ -66,28 +66,28 @@ case $bxx in
 	;;
 esac
 #===========================================================================================================================================================================================#
-#        																						    #
-# 													%usage:							    	    		    #
-# 													cowsay <message>					    			    #
-# 													cowsay /<style> <message>							    #
-# 													cowsay /<cow> <message>								    #
-# 													cowsay /<cow> /<style> <message>						    #
-#																							    #
-# 													cow styles:									    #
-# 													/borg /dead /greedy /paranoid /stoned /tired /wired /young /think /joke		    #
-#																							    #
-# 													cows: (e.g. cowsay /beavis)							    #
-# 													beavis           bong             budfrogs         bunny			    #
-# 													cheese           cow              cower            daemon			    #
-# 													dragon           dragonandcow     elephant         elephantinsnake		    #
-# 													eyes             flamingsheep     ghostbusters     headin			    #
-# 													hellokitty       kiss             kitty            koala			    #
-# 													kosh             lukekoala        meow             milk				    #
-# 													moofasa          moose            mutilated        ren				    #
-# 													satanic          sheep            skeleton         stegosaurus			    #
-# 													stimpy           supermilker      surgery          telebears			    #
-# 													turkey           turtle           tux              vader			    #
-# 													vaderkoala       www								    #
-#																							    #
-#																							    #
+#        																																													#
+# 																%usage:																														#
+# 																cowsay <message>																											#
+# 																cowsay /<style> <message>																									#
+# 																cowsay /<cow> <message>																										#
+# 																cowsay /<cow> /<style> <message>																							#
+#																																															#
+# 																cow styles:																													#
+# 																/borg /dead /greedy /paranoid /stoned /tired /wired /young /think /joke														#
+#																																															#
+# 																cows: (e.g. cowsay /beavis)																									#
+# 																beavis           bong             budfrogs         bunny																	#
+# 																cheese           cow              cower            daemon																	#
+# 																dragon           dragonandcow     elephant         elephantinsnake															#
+# 																eyes             flamingsheep     ghostbusters     headin																	#
+# 																hellokitty       kiss             kitty            koala																	#
+# 																kosh             lukekoala        meow             milk																		#
+# 																moofasa          moose            mutilated        ren																		#
+# 																satanic          sheep            skeleton         stegosaurus																#
+# 																stimpy           supermilker      surgery          telebears																#
+# 																turkey           turtle           tux              vader																	#
+# 																vaderkoala       www																										#
+#																																															#
+#																																															#
 #===========================================================================================================================================================================================#
