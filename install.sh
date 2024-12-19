@@ -62,15 +62,13 @@ echo " "
 mkdir ~/storage/shared/sfx
 sleep 3
 echo " "
-mv ~/storage/shared/sfx  ~/storage/shared/Torrent-Downloads/sfx
+mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/sfx/Cooking_Great.mp3
+mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/sfx/Secret_Sound.mp3
 echo " "
 echo " "
-mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Torrent-Downloads/sfx/Secret_Sound.mp3
-sleep 1
+mv ~/storage/shared/sfx  ~/storage/shared/Torrent-Downloads/sfx/
 echo " "
 echo " "
-echo " "
-mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Torrent-Downloads/sfx/Cooking_Great.mp3
 sleep 3
 echo " "
 echo " "
