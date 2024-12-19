@@ -31,12 +31,9 @@ echo -e "To \033[1;31mQuit\033[0m press \033[1;33mctrl\033[0m + \033[1;33mC\033[
 echo " "
 echo " "
 echo " "
-'
-
-aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Directory "/data/data/com.termux/files/home/downloads/${newf}" 
-
-
-' | lolcat
+#
+'aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Directory' | lolcat "/data/data/com.termux/files/home/downloads/${newf}"
+#
 echo " "
 echo " "
 echo " "
