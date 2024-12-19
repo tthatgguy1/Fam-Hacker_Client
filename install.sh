@@ -47,40 +47,30 @@ echo " "
 echo " "
 mkdir ~/storage/shared/Torrent-Downloads
 sleep 1
+sleep 1
 echo " "
-echo " "
-echo " "
-mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/Secret_Sound.mp3
+mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 sleep 3
 echo " "
 echo " "
 echo " "
-mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/Cooking_Great.mp3
+mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Cooking_Great.mp3
 sleep 3
 echo " "
 echo " "
 echo " "
-mkdir ~/storage/sfx
+mkdir ~/storage/shared/sfx
 sleep 3
 echo " "
+mv ~/storage/shared/sfx  ~/storage/shared/Torrent-Downloads/sfx
 echo " "
 echo " "
-mv ~/storage/Secret_Sound.mp3 ~/storage/sfx/Secret_Sound.mp3
+mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Torrent-Downloads/sfx/Secret_Sound.mp3
 sleep 1
 echo " "
 echo " "
 echo " "
-mv ~/storage/Cooking_Great.mp3 ~/storage/sfx/Cooking_Great.mp3
-sleep 3
-echo " "
-echo " "
-echo " "
-mv ~/storage/shared/sfx/Cooking_Great.mp3 ~/storage/shared/sfx/Cooking_Great.mp3
-sleep 3
-echo " "
-echo " "
-echo " "
-mv ~/storage/shared/sfx/Secret_Sound.mp3 ~/storage/shared/sfx/Secret_Sound.mp3
+mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Torrent-Downloads/sfx/Cooking_Great.mp3
 sleep 3
 echo " "
 echo " "
