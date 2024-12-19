@@ -35,6 +35,7 @@ echo " "
 
 aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Directory "/data/data/com.termux/files/home/downloads/${newf}" 
 
+
 ' | lolcat
 echo " "
 echo " "
