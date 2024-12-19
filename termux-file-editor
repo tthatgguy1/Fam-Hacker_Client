@@ -11,13 +11,6 @@ echo '
 	--------------------[Nah-Fam Studios]-----------------------' | lolcat
 
 echo " "
-echo " "
-echo " "
-echo " "
-echo " "
-echo " "
-echo " "
-echo " "
 'date' | lolcat
 cowsay -f dragon 'Fam-Hacker' | lolcat
 toilet -f big 'Nah-Bitch' | lolcat
