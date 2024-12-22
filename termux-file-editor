@@ -43,7 +43,7 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 echo " "
 echo -e "[\033[1;31mEnter\033[0m] Press Enter to \033[1;33mQuit\033[0m\033[1;31m!\033[0m"
 echo " "
-echo -e "\033[1;33m1\033[0m.[\033[1;31mDelete\033[0m] all the data in\033[1;33m-\033[0m[\033[1;31mNFS-T-Downloads]\033[0m."
+echo -e "\033[1;33m1\033[0m.[\033[1;31mDelete\033[0m] all the data in\033[1;33m-\033[0m[\033[1;31mNFS-T-Downloads\033[1;33m]\033[0m."
 read bxx                                                             
 
 case $bxx in
