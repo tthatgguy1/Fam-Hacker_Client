@@ -48,7 +48,7 @@ sleep 3
 echo " "
 echo " "
 echo " "
-mkdir ~/storage/shared/Fam-Hacker_Directory
+mkdir ~/storage/shared/Fam-Hacker_Client
 sleep 2
 echo " "
 echo " "
@@ -60,13 +60,13 @@ echo " "
 echo " "
 echo " "
 mkdir ~/storage/shared/sfx
-mv ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Directory/
+mv ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
 sleep 3
 echo " "
 echo " "
 echo " "
-mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Directory/sfx/Cooking_Great.mp3
-mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Directory/sfx/Secret_Sound.mp3
+mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
+mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3
 sleep 2
 echo " "
 echo " "
