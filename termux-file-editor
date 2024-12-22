@@ -32,7 +32,7 @@ echo " "
 echo " "
 echo " "
 #
-'aria2c --seed-time=0 --log-level=info --file-allocation=none --summery-interval=4000 -x 10 -s 10 -j 10 -k 1M -u 10K -d -T /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client' "/data/data/com.termux/files/home/downloads/${newf}"
+'aria2c --seed-time=0 --summery-interval=4000 -x 10 -j 10 -k -u 10K -d -T /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client' "/data/data/com.termux/files/home/downloads/${newf}"
 #
 echo " "
 echo " "
