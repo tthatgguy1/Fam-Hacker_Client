@@ -7,7 +7,7 @@ sleep 2
 echo " "
 echo " "
 echo " "
-echo "Updating default packages\n" | lolcat
+echo "Updating default packages" | lolcat
 sleep 3
 echo " "
 echo " "
@@ -21,12 +21,12 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3
 echo " "
 echo " "
 echo " "
-echo "Installing Required Packages\n" | lolcat
+echo "Installing Required Packages" | lolcat
 pkg install aria2 -y
 echo " "
 echo " "
 echo " "
-echo "Requesting access to storage\n" | lolcat
+echo "Requesting access to storage" | lolcat
 sleep 1
 echo " "
 echo " "
@@ -37,7 +37,7 @@ sleep 2
 echo " "
 echo " "
 echo " "
-echo "Creating bin folder\n" | lolcat
+echo "Creating bin folder" | lolcat
 mkdir ~/bin
 sleep 3
 echo " "
@@ -71,14 +71,14 @@ sleep 2
 echo " "
 echo " "
 echo " "
-echo "Creating termux-file-editor Script.\n" | lolcat
+echo "Creating termux-file-editor Script." | lolcat
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 3
 echo " "
 echo " "
 echo " "
-echo "\n" | lolcat
+echo " "
 clear
 sleep 3
 
