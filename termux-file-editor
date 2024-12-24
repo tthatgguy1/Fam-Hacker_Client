@@ -1,7 +1,7 @@
 clear
 echo " "
 echo " "
-mpv ~/storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
+mpv /storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
 clear
 echo '
 			████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
@@ -36,7 +36,7 @@ echo " "
 echo " "
 
 
-aria2c -x 10 -u 10K --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
+aria2c -x 10 -u 10K --seed-time=0 -d ~/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "~/data/data/com.termux/files/home/downloads/${newf}"
 echo " "
 echo " "
 
