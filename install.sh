@@ -1,8 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Project name : Termux-Torrent
-# Coded by: Khansaad1275 (You dont become a coder by just changing the credits)
-# Github: https://github.com/khansaad1275/Termux-Torrent
-# Date : 15/2/2022
+# Project name : Fam-Hacker_Client
+# Coded by: thattguyy1 (You dont become a coder by just changing the credits)
+# Github: https://github.com/tthatgguy1/Fam-Hacker_Client
+# Date : 12/04/2024
 
 clear
 'date' | lolcat
@@ -19,11 +19,12 @@ echo "Installing Required Packages" | lolcat
 pkg install aria2 -y
 sleep 2
 
-echo -e "\e[032m" "Requesting acces to storage\n"
+#Request Storage Access
+echo "Requesting access to storage" | lolcat
 sleep 2
-echo -e "\e[032m" "Allow Storage Permission!\n"
+echo "Allow Storage Permission!" | lolcat
 sleep 2
-termux-setup-storage 
+termux-setup-storage
 sleep 5
 
 #Making Directories
