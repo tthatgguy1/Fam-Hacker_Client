@@ -23,7 +23,7 @@ sleep 2
 echo "Requesting access to storage" | lolcat
 echo "Allow Storage Permission!" | lolcat
 termux-setup-storage
-sleep 2
+sleep 5
 
 #Making Directories
 echo "Making your new directory to download videos" | lolcat
