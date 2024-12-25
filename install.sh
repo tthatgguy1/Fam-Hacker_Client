@@ -21,7 +21,7 @@ sleep 2
 
 echo -e "\e[032m" "Requesting acces to storage\n"
 sleep 2
-echo -e "\e[032m" "Allow Storage Permission!"
+echo -e "\e[032m" "Allow Storage Permission!\n"
 sleep 2
 termux-setup-storage 
 sleep 5
