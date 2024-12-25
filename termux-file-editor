@@ -41,7 +41,7 @@ echo " "
 echo " "
 
 # Aria2 Download
-aria2c --seed-time=0 -x 10 -s 10 -j 10 -k 1M -d -T /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
+aria2c --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 echo " "
 echo " "
 
