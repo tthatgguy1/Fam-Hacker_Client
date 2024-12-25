@@ -1,8 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# Project name : Fam-Hacker_Client
-# Coded by: thattguyy1 (You dont become a coder by just changing the credits)
-# Github: https://github.com/tthatgguy1/Fam-Hacker_Client
-# Date : 12/04/2024
+# Project name : Termux-Torrent
+# Coded by: Khansaad1275 (You dont become a coder by just changing the credits)
+# Github: https://github.com/khansaad1275/Termux-Torrent
+# Date : 15/2/2022
 
 clear
 'date' | lolcat
