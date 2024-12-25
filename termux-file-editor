@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Project name : Fam-Hacker_Client
-# Coded by: thattguyy1 (You dont become a coder by just changing the credits)
+# Coded by: tthatgguy1 (You dont become a coder by just changing the credits)
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
 
@@ -41,7 +41,7 @@ echo " "
 echo " "
 
 # Aria2 Download
-aria2c --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
+aria2c --seed-time=0 -x 10 -s 10 -j 10 -k 1M -d -T /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 echo " "
 echo " "
 

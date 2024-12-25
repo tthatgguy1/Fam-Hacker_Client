@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Project name : Termux-Torrent
-# Coded by: Khansaad1275 (You dont become a coder by just changing the credits)
-# Github: https://github.com/khansaad1275/Termux-Torrent
+# Coded by: tthatgguy1 (You dont become a coder by just changing the credits)
+# Github: https://github.com/tthatgguy1/Termux-Torrent
 # Date : 15/2/2022
 
 clear
