@@ -20,9 +20,11 @@ pkg install aria2 -y
 sleep 2
 
 #Request Storage Access
-echo "Requesting access to storage" | lolcat
-echo "Allow Storage Permission!" | lolcat
-termux-setup-storage
+echo -e "\e[032m" "Requesting acces to storage\n"
+sleep 2
+echo -e "\e[032m" "Allow Storage Permission!"
+sleep 2
+termux-setup-storage 
 sleep 5
 
 #Making Directories
