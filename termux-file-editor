@@ -7,8 +7,7 @@
 clear
 echo " "
 echo " "
-mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
-clear
+echo " "
 echo '
 			████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
 			╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
@@ -19,6 +18,9 @@ echo '
 			--------------------[Nah-Fam Studios]-----------------------' | lolcat 
 
 echo " "
+echo " "
+echo " "
+mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
 cowsay -f dragon 'Fam-Hacker' | lolcat
 toilet -f big 'Nah-Bitch' | lolcat
