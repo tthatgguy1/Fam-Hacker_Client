@@ -10,12 +10,12 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
 #Update Packages
-echo -e "\e[39m" "Updating default packages\n"
-pkg update && pkg upgrade -y
+echo -e "\e[31m" "Updating default packages\n"
+pkg update && pkg upgrade -y | lolcat
 sleep 3
 
 #Install Aria2 Termux
-echo -e "\e[38m" "Installing Required Packages\n"
+echo -e "\e[31m" "Installing Required Packages\n"
 pkg install aria2 -y
 sleep 2
 
@@ -36,8 +36,8 @@ mkdir ~/storage/shared/sfx
 sleep 3
 
 #Creating Termux-File-Editor Script
-echo -e "\e[33m" "Creating termux-file-editor Script\n"
-echo -e "\e[32m"  "chmod +x termux-file-editor\n"
+echo -e "\e[31m" "Creating termux-file-editor Script\n"
+echo -e "\e[32m"  "chmod +x termux-file-editor\n" | lolcat -f --force
 mv termux-file-editor ~/bin/
 sleep 2
 
