@@ -23,7 +23,7 @@ echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
 cowsay -f dragon 'Fam-Hacker' | lolcat --seed=3000
-toilet -f big 'Nah-Bitch\n' | lolcat --seed=4000
+toilet -f big 'Nah-Bitch' | lolcat --seed=4000
 echo " "
 echo " "
 
@@ -33,17 +33,17 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo -e "\e[032m" "Downloading\n"
+echo -e "\e[32m" "Downloading\n"
 echo "${newf}" | lolcat
 echo " "
-echo -e "\e[032m" "To Quit\n press ctrl + C together, and then press Enter" | lolcat
+echo -e "\e[32m" "To Quit\n press ctrl + C together, and then press Enter" | lolcat
 echo " "
 echo " "
 
 # Aria2 Download
-echo -e "\e[032m"
+echo -e "\033[32m"
 aria2c --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
-echo "\n"
+echo "\033[0m"
 echo " "
 echo " "
 

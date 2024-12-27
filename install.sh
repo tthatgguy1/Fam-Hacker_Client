@@ -10,26 +10,26 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
 #Update Packages
-echo -e "\e[36m" "Updating default packages\n"
+echo "\033[32mUpdating\033[0m \033[38mdefault\033[0m \033[32mpackages\033[0m"
 pkg update && pkg upgrade -y
 sleep 3
 
 #Install Aria2 Termux
-echo -e "\e[36m" "Installing Required Packages\n"
+echo "Installing Required Packages"
 pkg install aria2 -y
 sleep 2
 
 #Request Storage Access
-echo -e "\e[32m" "Requesting access to storage\n"
+echo "Requesting access to storage"
 sleep 2
-echo -e "\e[33m" "Allow Storage Permission!\n"
+echo "Allow Storage Permission!"
 sleep 2
 termux-setup-storage -y
 sleep 5
 
 #Making Directories
-echo -e "\e[34m" "Making your new directory to download videos\n"
-echo -e "\e[36m" "Creating bin folder\n"
+echo "Making your new directory to download videos"
+echo "Creating bin folder"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
 mkdir ~/storage/shared/sfx
@@ -57,6 +57,6 @@ toilet -f big 'Milked' | lolcat
 echo " "
 echo " "
 echo " "
-echo -e "\e[031m" "Now you can open any .torrent file and it will open in termux start Downloading.\n"
+echo "Now you can open any .torrent file and it will open in termux start Downloading."
 sleep 15
 clear
