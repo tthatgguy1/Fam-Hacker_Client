@@ -20,24 +20,24 @@ pkg install aria2 -y | lolcat
 sleep 2
 
 #Request Storage Access
-echo -e "\e[33m" "Requesting access to storage\n"
+echo -e "\e[31m" "Requesting access to storage\n"
 sleep 2
-echo -e "\e[33m" "Allow Storage Permission!\n"
+echo -e "\e[31m" "Allow Storage Permission!\n"
 sleep 2
 termux-setup-storage -y | lolcat
 sleep 5
 
 #Making Directories
-echo -e "\e[35m" "Making your new directory to download videos\n"
-echo -e "\e[34m" "Creating bin folder\n"
+echo -e "\e[31m" "Making your new directory to download videos\n"
+echo -e "\e[31m" "Creating bin folder\n"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
 mkdir ~/storage/shared/sfx
 sleep 3
 
 #Creating Termux-File-Editor Script
-echo -e "\e[33m" "Creating termux-file-editor Script\n"
-echo -e "\e[33m" "chmod +x termux-file-editor\n"
+echo -e "\e[31m" "Creating termux-file-editor Script\n"
+chmod +x termux-file-editor | lolcat --seed=5500
 mv termux-file-editor ~/bin/ | lolcat -f --force
 sleep 2
 
@@ -50,7 +50,6 @@ mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Coo
 mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 | lolcat -f --force
 echo " "
 echo " "
-clear
 
 #Cowsay Ending
 cowsay -f milk 'Process Complete' | lolcat
@@ -59,5 +58,5 @@ echo " "
 echo " "
 echo " "
 echo -e "\e[031m" "Now you can open any .torrent file and it will open in termux start Downloading.\n"
-sleep 5
+sleep 15
 clear
