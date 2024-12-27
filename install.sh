@@ -5,7 +5,7 @@
 # Date : 12/04/2024
 
 clear
-'date' | lolcat -f --force --seed=9000 --invert
+'date' | lolcat -f --force --seed=9000
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
@@ -18,9 +18,9 @@ sleep 3
 
 #Install Aria2 Termux
 echo -e "\e[1;36m" "Installing Required Packages\n"
-echo ""
+echo -e "\e[1;35m"
 pkg install aria2 -y
-echo ""
+echo "\n"
 sleep 3
 
 #Request Storage Access
@@ -28,15 +28,16 @@ echo -e "\e[1;33m" "Requesting access to storage\n"
 sleep 3
 
 echo -e "\e[1;33m" "Allow Storage Permission!\n"
+echo -e "\e[1;37m" "Allow Storage Permission!"
 sleep 3
 
 termux-setup-storage
-echo " "
+echo "\n "
 sleep 5
 
 #Making Directories
-echo -e "\e[1;32m" "Making your new directory to download videos\n"
-echo "Creating bin folder"
+echo -e "\e[1;36m" "Making your new directory to download videos\n"
+echo -e "\e[1;36m" "Creating bin folder\n"
 echo " "
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
@@ -49,10 +50,10 @@ echo "Creating termux-file-editor Script" | lolcat -f --force
 echo -e "\e[1;32m" "Creating File Editor!\n"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
-sleep 3
+sleep 4
 
 #Moving Sound Effects
-echo "Moving Sound Effects to Fam-Hacker_Client folder."  | lolcat -f --force
+echo -e "\e[1;32m" "Moving Sound Effects to Fam-Hacker_Client folder."
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
@@ -62,6 +63,7 @@ mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Coo
 mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3
 echo " "
 echo " "
+sleep 7
 
 #Cowsay Ending
 cowsay -f milk 'Process Complete' | lolcat
