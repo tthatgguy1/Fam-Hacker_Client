@@ -24,7 +24,7 @@ echo "Requesting access to storage"
 sleep 2
 echo "Allow Storage Permission!"
 sleep 2
-termux-setup-storage -y
+termux-setup-storage
 sleep 5
 
 #Making Directories
