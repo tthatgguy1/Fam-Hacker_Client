@@ -72,7 +72,7 @@ toilet -f big 'Milked' | lolcat
 echo " "
 echo " "
 echo " "
-echo -e "\033[37mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
+echo -e "\033[39mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
 echo ""
 sleep 15
 clear
