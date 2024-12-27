@@ -22,13 +22,13 @@ sleep 2
 #Request Storage Access
 echo -e "\e[32m" "Requesting access to storage\n"
 sleep 2
-echo -e "\e[32m" "Allow Storage Permission!\n"
+echo -e "\e[33m" "Allow Storage Permission!\n"
 sleep 2
 termux-setup-storage -y
 sleep 5
 
 #Making Directories
-echo -e "\e[32m" "Making your new directory to download videos\n"
+echo -e "\e[34m" "Making your new directory to download videos\n"
 echo -e "\e[32m" "Creating bin folder\n"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
@@ -37,8 +37,8 @@ sleep 3
 
 #Creating Termux-File-Editor Script
 echo "Creating termux-file-editor Script" | lolcat
-chmod +x termux-file-editor >/dev/null 2>/dev/null
-mv termux-file-editor ~/bin/ >/dev/null 2>/dev/null
+chmod +x termux-file-editor
+mv termux-file-editor ~/bin/
 sleep 2
 
 #Moving Sound Effects
