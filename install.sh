@@ -12,15 +12,15 @@ sleep 2
 #Update Packages
 echo ""
 echo -e "\e[1;34m" "Updating default packages\n"
-echo""
+echo -e "\033[1;34m"
 pkg update && pkg upgrade -y
 sleep 3
 
 #Install Aria2 Termux
 echo -e "\e[1;36m" "Installing Required Packages\n"
-echo -e "\e[1;35m"
+echo -e "\033[1;36m"
 pkg install aria2 -y
-echo "\n"
+echo " "
 sleep 3
 
 #Request Storage Access
@@ -28,17 +28,18 @@ echo -e "\e[1;33m" "Requesting access to storage\n"
 sleep 3
 
 echo -e "\e[1;33m" "Allow Storage Permission!\n"
-echo -e "\e[1;39m" "Allow Storage Permission!"
+echo -e "\e[1;31m" "Allow Storage Permission!\n"
+echo -e "\033[1;33m"
 sleep 3
 
 termux-setup-storage
-echo "\n "
+echo " "
 sleep 5
 
 #Making Directories
 echo -e "\e[1;36m" "Making your new directory to download videos\n"
 echo -e "\e[1;36m" "Creating bin folder\n"
-echo " "
+echo -e "\033[1;36m"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
 mkdir ~/storage/shared/sfx
@@ -48,12 +49,14 @@ sleep 3
 #Creating Termux-File-Editor Script
 echo "Creating termux-file-editor Script" | lolcat -f --force
 echo -e "\e[1;32m" "Creating File Editor!\n"
+echo -e "\e[1;38m"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 4
 
 #Moving Sound Effects
 echo -e "\e[1;32m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
+echo -e "\e[1;31m"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
