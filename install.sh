@@ -11,31 +11,31 @@ sleep 2
 
 #Update Packages
 echo ""
-echo -e "\e[1;38m" "Updating default packages\n"
+echo -e "\e[1;34m" "Updating default packages\n"
 echo""
 pkg update && pkg upgrade -y
 sleep 3
 
 #Install Aria2 Termux
-echo "Installing Required Packages"
+echo -e "\e[1;36m" "Installing Required Packages\n"
 echo ""
 pkg install aria2 -y
 echo ""
-sleep 2
+sleep 3
 
 #Request Storage Access
 echo -e "\e[1;33m" "Requesting access to storage\n"
-sleep 2
+sleep 3
 
-echo "Allow Storage Permission!"
-sleep 2
-echo " "
+echo -e "\e[1;33m" "Allow Storage Permission!\n"
+sleep 3
+
 termux-setup-storage
 echo " "
 sleep 5
 
 #Making Directories
-echo "Making your new directory to download videos"
+echo -e "\e[1;32m" "Making your new directory to download videos\n"
 echo "Creating bin folder"
 echo " "
 mkdir ~/storage/shared/Fam-Hacker_Client
@@ -46,9 +46,10 @@ sleep 3
 
 #Creating Termux-File-Editor Script
 echo "Creating termux-file-editor Script" | lolcat -f --force
+echo -e "\e[1;32m" "Creating File Editor!\n"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
-sleep 2
+sleep 3
 
 #Moving Sound Effects
 echo "Moving Sound Effects to Fam-Hacker_Client folder."  | lolcat -f --force
