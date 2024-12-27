@@ -56,7 +56,7 @@ sleep 4
 
 #Moving Sound Effects
 echo -e "\e[1;34m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
-echo -e "\033[1;34m"
+echo -e "\033[1;36m"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
@@ -73,8 +73,8 @@ cowsay -f milk 'Process Complete' | lolcat
 toilet -f big 'Milked' | lolcat
 echo " "
 echo " "
-echo -e "\033[37m"
-echo "Now you can open any .torrent file and it will open in termux start Downloading."
-echo -e "\033[0m"
+echo " "
+echo -e "\033[37mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
+echo ""
 sleep 15
 clear
