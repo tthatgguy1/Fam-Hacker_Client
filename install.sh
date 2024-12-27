@@ -28,7 +28,7 @@ echo -e "\e[1;33m" "Requesting access to storage\n"
 sleep 3
 
 echo -e "\e[1;33m" "Allow Storage Permission!\n"
-echo -e "\e[1;37m" "Allow Storage Permission!"
+echo -e "\e[1;39m" "Allow Storage Permission!"
 sleep 3
 
 termux-setup-storage
@@ -53,7 +53,7 @@ mv termux-file-editor ~/bin/
 sleep 4
 
 #Moving Sound Effects
-echo -e "\e[1;32m" "Moving Sound Effects to Fam-Hacker_Client folder."
+echo -e "\e[1;32m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
