@@ -43,7 +43,7 @@ echo " "
 # Aria2 Download
 echo -e "\e[032m"
 aria2c --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
-echo " "
+echo "\n"
 echo " "
 echo " "
 
