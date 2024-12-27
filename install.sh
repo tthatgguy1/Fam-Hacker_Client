@@ -37,8 +37,8 @@ echo " "
 sleep 5
 
 #Making Directories
-echo -e "\e[1;36m" "Making your new directory to download videos\n"
-echo -e "\e[1;36m" "Creating bin folder\n"
+echo -e "\e[1;34m" "Making your new directory to download videos\n"
+echo -e "\e[1;34m" "Creating bin folder\n"
 echo -e "\033[1;36m"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
@@ -48,15 +48,15 @@ sleep 3
 
 #Creating Termux-File-Editor Script
 echo "Creating termux-file-editor Script" | lolcat -f --force
-echo -e "\e[1;32m" "Creating File Editor!\n"
-echo -e "\e[1;38m"
+echo -e "\e[1;34m" "Creating File Editor!\n"
+echo -e "\033[1;34m"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 4
 
 #Moving Sound Effects
-echo -e "\e[1;32m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
-echo -e "\e[1;31m"
+echo -e "\e[1;34m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
+echo -e "\033[1;34m"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
 mv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
