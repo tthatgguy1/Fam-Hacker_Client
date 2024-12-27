@@ -30,8 +30,6 @@ sleep 3
 echo -e "\e[1;33m" "Allow Storage Permission!\n"
 echo -e "\e[1;31m" "Allow Storage Permission!\n"
 echo -e "\033[1;33m"
-sleep 3
-
 termux-setup-storage
 echo " "
 sleep 5

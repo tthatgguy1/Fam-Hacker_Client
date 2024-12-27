@@ -33,7 +33,7 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo -e "\033[1;35mDownloading\033[0m"
+echo -e "\033[1;38mDownloading\033[0m"
 echo "${newf}" | lolcat --animate --druation=60 --freq=3
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;31m+\033[0m \033[1;31mC\033[0m \033[1;31mtogether\033[0m, and then press \033[1;31mEnter\033[0m"
