@@ -15,7 +15,7 @@ echo '
 	   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
 	   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
 	   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
-	--------------------[Nah-Fam Studios]-----------------------' | lolcat
+	--------------------\033[1;33m[\033[0m\033[1;31mNah\033[0m\033[1;33m-\033[0m\033[1;31mFam\033[0m\033[1;33m_\033[0m\033[1;31mStudios\033[0m\033[1;33m]\033[0m-----------------------' | lolcat --force \-f
 
 echo " "
 echo " " 
@@ -26,11 +26,11 @@ cowsay -f ren 'Nah-Bitch' | lolcat
 toilet -f big 'Fam-Hacker'-F gay
 echo " "
 echo " "
-
+echo " "
 # getting the latest file .torrent file
 cd downloads
 newf=$(ls -Art | tail -n 1)
-
+echo " "
 # file info
 echo " "
 echo -e "\e[4;1;32m" "Downloading" "\e(B\e[m"
@@ -39,22 +39,22 @@ echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
 echo " "
 echo " "
-
+echo " "
 # Aria2 Download
 echo " "
-echo -e "\e[3#"
-
+echo " "
+echo -e "\e[7#"
 "aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}" 
-
+echo " "
 echo ".\e(B\e[m"
-
+echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
-
+echo " "
 # Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*
-
+echo " "
 # Quit Menu
 echo " "
 echo -e "[\033[1;31mEnter\033[0m] Press Enter to \033[1;33mQuit\033[0m\033[1;31m!\033[0m"
