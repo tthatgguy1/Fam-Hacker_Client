@@ -64,7 +64,7 @@ echo " "
 sleep 7
 #Cowsay Ending
 cowsay -f stimpy 'Process Complete' | lolcat \-a
-toilet big 'Milked' -F gay
+toilet -f big 'Milked' -F gay
 echo " "
 echo " "
 echo " "
