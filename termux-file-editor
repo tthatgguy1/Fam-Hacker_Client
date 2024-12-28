@@ -22,8 +22,8 @@ echo " "
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
-cowsay -f dragon 'Fam-Hacker' | lolcat --seed=100008765 --animate --duration=60 --freq=12
-toilet -f big 'Nah-Bitch' | lolcat --seed=34567876543 --animate --duration=60 --freq=12
+cowsay -f dragon 'Fam-Hacker' | lolcat --seed=100008765 --animate --duration=30 --freq=09
+toilet -f big 'Nah-Bitch' | lolcat --seed=34567876543 --animate --duration=30 --freq=09
 echo " "
 echo " "
 
