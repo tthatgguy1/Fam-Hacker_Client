@@ -22,8 +22,8 @@ echo " "
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
-cowsay -f dragon 'Fam-Hacker' | lolcat --seed=7000
-toilet -f big 'Nah-Bitch' | lolcat --seed=8000
+cowsay -f dragon 'Fam-Hacker' | lolcat --seed=7000 --animate --duration=60 --freq=6
+toilet -f big 'Nah-Bitch' | lolcat --seed=7000 --animate --duration=60 --freq=6
 echo " "
 echo " "
 
@@ -34,7 +34,7 @@ newf=$(ls -Art | tail -n 1)
 # file info
 echo " "
 echo -e "\033[1;39mDownloading\033[0m"
-echo "${newf}" | lolcat
+echo "${newf}" | lolcat --seed=7000 --animate --duration=60 --freq=6
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
 echo " "

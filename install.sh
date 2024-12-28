@@ -18,7 +18,7 @@ sleep 3
 
 #Install Aria2 Termux
 echo -e "\033[36mInstalling Required Packages\033[0m"
-echo -e "\033[35m"
+echo -e "\033[38m"
 pkg install aria2 -y
 echo " "
 sleep 3
@@ -53,7 +53,7 @@ mv termux-file-editor ~/bin/
 sleep 4
 
 #Moving Sound Effects
-echo -e "\033[34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
+echo -e "\033[1:34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
 echo -e "\033[1;36m"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
