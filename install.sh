@@ -11,49 +11,49 @@ sleep 2
 
 #Update Packages
 echo ""
-echo -e "\e[1;34m" "Updating default packages\n"
-echo -e "\033[1;34m"
+echo -e "\033[38mUpdating default packages\033[0m"
+echo -e "\033[34m"
 pkg update && pkg upgrade -y
 sleep 3
 
 #Install Aria2 Termux
-echo -e "\e[1;36m" "Installing Required Packages\n"
-echo -e "\033[1;36m"
+echo -e "\033[36mInstalling Required Packages\033[0m"
+echo -e "\033[35m"
 pkg install aria2 -y
 echo " "
 sleep 3
 
 #Request Storage Access
-echo -e "\e[1;33m" "Requesting access to storage\n"
+echo -e "\033[33mRequesting access to storage\033[0m"
 sleep 3
 
-echo -e "\e[1;33m" "Allow Storage Permission!\n"
-echo -e "\e[1;31m" "Allow Storage Permission!\n"
-echo -e "\033[1;33m"
+echo -e "\033[31mAllow Storage Permission!\033[0m"
+echo -e "\033[31mAllow Storage Permission!\033[0m"
+echo -e "\033[33m"
 termux-setup-storage
-echo " "
+echo "\033[0m"
 sleep 5
 
 #Making Directories
-echo -e "\e[1;34m" "Making your new directory to download videos\n"
-echo -e "\e[1;34m" "Creating bin folder\n"
-echo -e "\033[1;36m"
+echo -e "\033[34mMaking your new directory to download videos\033[0m"
+echo -e "\033[34m" "Creating bin folder\n"
+echo -e "\033[36m"
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
 mkdir ~/storage/shared/sfx
 echo " "
 sleep 3
 
-#Creating Termux-File-Editor Script
-echo "Creating termux-file-editor Script" | lolcat -f --force
-echo -e "\e[1;34m" "Creating File Editor!\n"
-echo -e "\033[1;34m"
+#Creating Termux\033[34m-\033[0mFile-Editor Script
+echo -e "Creating termux\033[34m-\033[0mfile-editor Script" | lolcat -f --force
+echo -e "\033[34mCreating File Editor!\033[0m"
+echo -e "\033[34m"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 4
 
 #Moving Sound Effects
-echo -e "\e[1;34m" "Moving Sound Effects to Fam-Hacker_Client folder.\n"
+echo -e "\033[34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
 echo -e "\033[1;36m"
 mv ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 mv ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
@@ -62,7 +62,7 @@ mv ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
 mv ~/storage/shared/High_Value.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3
 mv ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
 mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3
-echo " "
+echo "\033[0m"
 echo " "
 sleep 7
 
@@ -72,7 +72,7 @@ toilet -f big 'Milked' | lolcat
 echo " "
 echo " "
 echo " "
-echo -e "\033[39mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
+echo -e "\033[34mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
 echo ""
 sleep 15
 clear
