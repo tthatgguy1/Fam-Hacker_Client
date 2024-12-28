@@ -5,20 +5,20 @@
 # Date : 12/04/2024
 
 clear
-'date' | lolcat -f --force --seed=100000000000
+'date' | lolcat -f --force --seed=10000
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
 #Update Packages
 echo ""
-echo -e "\033[38mUpdating default packages\033[0m"
+echo -e "\033[37mUpdating default packages\033[0m"
 echo -e "\033[1;34m"
 pkg update && pkg upgrade -y
 sleep 3
 
 #Install Aria2 Termux
 echo -e "\033[36mInstalling Required Packages\033[0m"
-echo -e "\e[36m"
+echo -e "\033[36m"
 pkg install aria2 -y
 echo -e " "
 sleep 3
@@ -27,7 +27,7 @@ sleep 3
 echo -e "\033[33mRequesting access to storage\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
-echo -e "\e[1;33m"
+echo -e "\033[1;33m"
 termux-setup-storage
 echo " "
 sleep 5
@@ -41,9 +41,9 @@ mkdir ~/storage/shared/sfx
 echo " "
 sleep 3
 #Creating Termux\033[34m-\033[0mFile-Editor Script
-echo -e "Creating termux\033[34m-\033[0mfile-editor Script" | lolcat
-echo -e "\033[1;34mCreating File Editor!\033[0m"
-echo -e "\033[1;34m"
+echo -e "Creating termux\033[33m-\033[0mfile-editor Script" | lolcat
+echo -e "\033[1;33mCreating File Editor!\033[0m"
+echo -e "\033[1;33m"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 4
