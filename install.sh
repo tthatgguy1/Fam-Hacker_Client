@@ -5,7 +5,7 @@
 # Date : 12/04/2024
 
 clear
-'date' | lolcat -f --force --seed=600
+'date' | lolcat \-a
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
@@ -32,7 +32,7 @@ echo -e '\033[0m'
 sleep 5
 #Making Directories
 echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
-echo -e "\033[1;34m" "Creating bin folder\n"
+echo -e "\033[1;34m" "Creating bin folder"
 echo -e '\033[36m'
 mkdir ~/storage/shared/Fam-Hacker_Client
 mkdir ~/bin
@@ -61,8 +61,8 @@ echo -e '\033[0m'
 echo " "
 sleep 7
 #Cowsay Ending
-cowsay -f milk 'Process Complete' | lolcat
-toilet -f big 'Milked' | lolcat
+cowsay -f milk 'Process Complete' | lolcat \-a
+toilet -f big 'Milked' | lolcat \-a
 echo " "
 echo " "
 echo " "
