@@ -10,14 +10,14 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 #Update Packages
 echo " "
-echo -e "\e[1;33m" "Updating default packages"
-echo -e "\e[3;1;33m"
+echo -e "\e[5;1;33m" "Updating default packages"
+echo -e "\e[5;1;33m"
 "pkg" update -y
 "pkg" upgrade -y
 echo -e ".\e(B\e[m"
 sleep 3
 #Install Aria2 Termux
-echo -e "\e[36m" "Installing Required Packages\n"
+echo -e "\e[5;36m" "Installing Required Packages\n"
 echo -e "\e[1;36m"
 "pkg" install aria2 -y
 echo -e ".\e(B\e[m" 
@@ -64,11 +64,10 @@ echo " "
 sleep 7
 #Cowsay Ending
 cowsay -f stimpy 'Process Complete' | lolcat \-a
-toilet -f small 'Milked' | lolcat \-a
+toilet big 'Milked' -F gay
 echo " "
 echo " "
 echo " "
 echo -e "\033[34mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
 echo ""
 sleep 30
-clear
