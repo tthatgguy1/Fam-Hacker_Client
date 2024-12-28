@@ -14,13 +14,13 @@ echo ""
 echo -e "\033[34mUpdating default packages\033[0m"
 echo -e '\033[1;34m'
 'pkg' update && 'pkg' upgrade -y
-echo -e '\033[0m'
+echo -e ' '
 sleep 3
 #Install Aria2 Termux
 echo -e "\033[36mInstalling Required Packages\033[0m"
 echo -e '\033[1;36m'
 'pkg' install aria2 -y
-echo -e '\033[0m'
+echo -e ' '
 sleep 3
 #Request Storage Access
 echo -e "\033[1;33mRequesting access to storage\033[0m"
@@ -31,7 +31,7 @@ echo -e '\033[1;33m'
 echo -e '\033[0m'
 sleep 5
 #Making Directories
-echo -e "\033[34mMaking your new directory to\033[0m \033[36mdownload\033[0m \033[34mvideos\033[0m"
+echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
 echo -e "\033[1;34m" "Creating bin folder\n"
 echo -e '\033[36m'
 mkdir ~/storage/shared/Fam-Hacker_Client
