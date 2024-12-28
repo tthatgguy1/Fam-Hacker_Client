@@ -15,15 +15,15 @@ echo '
 	   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
 	   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
 	   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
-	--------------------[Nah-Fam Studios]-----------------------' | lolcat \-a 
+	--------------------[Nah-Fam Studios]-----------------------' | lolcat
 
 echo " "
-echo " "
+echo " " 
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
-cowsay -f eyes 'Fam-Hacker' | lolcat --seed=10000 --animate --duration=15 --freq=0.05
-toilet -f big 'Nah-Bitch' | lolcat --seed=3456 --animate --duration=15 --freq=0.05
+cowsay -f eyes 'Fam-Hacker' | lolcat \-a
+toilet -f big 'Nah-Bitch' | lolcat \-a
 echo " "
 echo " "
 
