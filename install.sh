@@ -5,19 +5,19 @@
 # Date : 12/04/2024
 
 clear
-'date' | lolcat \-a
-                           ##mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+'date' | lolcat
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
 #Update Packages
 echo ""
 echo -e "Updating default packages"
-echo -e "\e[3;1;34m"
+echo -e "\e[3;1;33m"
 "pkg" update && "pkg" upgrade -y
 echo -e ".\e(B\e[m"
 sleep 3
 #Install Aria2 Termux
-echo -e "\033[36mInstalling Required Packages\033[0m"
+echo -e "\e[36m" "Installing Required Packages\n"
 echo -e "\e[1;36m"
 "pkg" install aria2 -y
 ehco -e ".\e(B\e[m" 
@@ -40,8 +40,8 @@ echo -e "\e[1;36m"
 ehco -e ".\e(B\e[m"
 sleep 3
 #Creating Termux\033[34m-\033[0mFile-Editor Script
-echo -e "\e[1;34m" "Creating termux-file-editor script"
-echo -e "\e[1;33m" "Completing termux-file-editor script"
+echo -e "\e[1;34m" "Creating termux-file-editor script\n"
+echo -e "\e[1;33m" "Completing termux-file-editor script\n"
 ehco -e ".\e(B\e[m"
 "chmod" +x termux-file-editor
 echo -e "\e[1;33m" " File Editor Created!\n"
