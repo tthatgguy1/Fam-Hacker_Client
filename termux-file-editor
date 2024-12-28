@@ -22,8 +22,8 @@ echo " "
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat
-cowsay -f eyes 'Fam-Hacker' | lolcat \-a
-toilet -f big 'Nah-Bitch' | lolcat \-a
+cowsay -f ren 'Nah-Bitch' | lolcat \-a
+toilet -f big 'Fam-Hacker' | lolcat \-a
 echo " "
 echo " "
 
@@ -43,7 +43,7 @@ echo " "
 # Aria2 Download
 echo " "
 echo -e "\033[1;35m" 
-aria2c --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
+"aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null
 echo " "
 
