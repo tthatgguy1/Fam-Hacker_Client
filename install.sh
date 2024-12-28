@@ -5,13 +5,13 @@
 # Date : 12/04/2024
 
 clear
-'date' | lolcat -f --force --seed=10000
+'date' | lolcat -f --force --seed=600
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 
 #Update Packages
 echo ""
-echo -e "\033[1;34mUpdating default packages\033[0m"
+echo -e "\033[34mUpdating default packages\033[0m"
 echo -e '\033[1;34m'
 'pkg' update && 'pkg' upgrade -y
 echo -e '\033[0m'
@@ -23,7 +23,7 @@ echo -e '\033[1;36m'
 echo -e '\033[0m'
 sleep 3
 #Request Storage Access
-echo -e "\033[33mRequesting access to storage\033[0m"
+echo -e "\033[1;33mRequesting access to storage\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
 echo -e '\033[1;33m'
@@ -31,7 +31,7 @@ echo -e '\033[1;33m'
 echo -e '\033[0m'
 sleep 5
 #Making Directories
-echo -e "\033[1;34mMaking your new directory to download videos\033[0m"
+echo -e "\033[1;34mMaking your new directory to\033[0m \033[37mdownload\033[0m \033[1;34mvideos\033[0m"
 echo -e "\033[1;34m" "Creating bin folder\n"
 echo -e '\033[36m'
 'mkdir' ~/storage/shared/Fam-Hacker_Client
@@ -40,7 +40,7 @@ echo -e '\033[36m'
 echo -e '\033[0m'
 sleep 3
 #Creating Termux\033[34m-\033[0mFile-Editor Script
-echo -e "Creating termux\033[33m-\033[0mfile-editor Script" | lolcat
+echo -e "\033[1;33mCreating\033[0m termux\033[33m-\033[0mfile\033[1;33m-\033[0meditor Script"
 echo -e "\033[1;33mCreating File Editor!\033[0m"
 sleep 3
 chmod +x termux-file-editor
@@ -48,7 +48,7 @@ mv termux-file-editor ~/bin/
 echo -e '\033[0m'
 sleep 4
 #Moving Sound Effects
-echo -e "\033[1:34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
+echo -e "\033[1;34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
 echo -e '\033[1;36m'
 'mv' ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 'mv' ~/Fam-Hacker_Client/data/High_Value.mp3 ~/storage/shared/High_Value.mp3
