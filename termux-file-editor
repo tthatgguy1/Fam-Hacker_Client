@@ -44,10 +44,10 @@ echo " "
 echo " "
 echo -e "\033[1;32m" 
 aria2c --seed-time=0 --summary-interval=453868277 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
-echo -e "\033[0m"
+echo -e " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null
 echo " "
-echo " "
+echo "\033[0m"
 
 # Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*

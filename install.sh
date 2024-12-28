@@ -18,21 +18,19 @@ sleep 3
 
 #Install Aria2 Termux
 echo -e "\033[36mInstalling Required Packages\033[0m"
-echo -e '\e[36m'
-                'pkg install aria2 -y'
-echo '\n'
-echo -e
+echo -e "\e[36m"
+pkg install aria2 -y
+echo -e " "
 sleep 3
 
 #Request Storage Access
 echo -e "\033[33mRequesting access to storage\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
 echo -e "\033[1;31mAllow Storage Permission!\033[0m"
-echo -e "\033[1;33m"
+echo -e "\e[1;33m"
 termux-setup-storage
 echo " "
 sleep 5
-
 #Making Directories
 echo -e "\033[1;34mMaking your new directory to download videos\033[0m"
 echo -e "\033[1;34m" "Creating bin folder\n"
@@ -42,7 +40,6 @@ mkdir ~/bin
 mkdir ~/storage/shared/sfx
 echo " "
 sleep 3
-
 #Creating Termux\033[34m-\033[0mFile-Editor Script
 echo -e "Creating termux\033[34m-\033[0mfile-editor Script" | lolcat
 echo -e "\033[1;34mCreating File Editor!\033[0m"
@@ -50,7 +47,6 @@ echo -e "\033[1;34m"
 chmod +x termux-file-editor
 mv termux-file-editor ~/bin/
 sleep 4
-
 #Moving Sound Effects
 echo -e "\033[1:34mMoving Sound Effects to Fam-Hacker_Client folder.\033[0m"
 echo -e "\033[1;36m"
@@ -64,7 +60,6 @@ mv ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secr
 echo " "
 echo " "
 sleep 7
-
 #Cowsay Ending
 cowsay -f milk 'Process Complete' | lolcat
 toilet -f big 'Milked' | lolcat
