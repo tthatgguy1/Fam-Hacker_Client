@@ -33,7 +33,7 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo -e "\e[2#7m" "\e[3;2;32m" "Downloading" "\e(B\e[m"
+echo -e "\e[2#7m" "\e[4;3;2;32m" "Downloading" "\e(B\e[m"
 echo "${newf}" | lolcat \-a
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
@@ -42,11 +42,11 @@ echo " "
 
 # Aria2 Download
 echo " "
-echo -e '\e[3;32m'
+echo -e '\e[3;1;32m'
 
 'aria2c' --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 
-echo ' '
+echo '\e(B\e[m'
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null
 echo " "
