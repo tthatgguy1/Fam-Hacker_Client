@@ -11,7 +11,7 @@ sleep 2
 
 #Update Packages
 echo ""
-echo -e "\033[37mUpdating default packages\033[0m"
+echo -e "\033[30mUpdating default packages\033[0m"
 echo -e "\033[1;34m"
 pkg update && pkg upgrade -y
 sleep 3
