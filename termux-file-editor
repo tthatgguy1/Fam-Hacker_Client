@@ -42,12 +42,15 @@ echo " "
 
 # Aria2 Download
 echo " "
-echo '
+echo -e '\e[3m
 
 'aria2c' --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
-'mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null' | lolcat
 
-echo '
+echo \n'
+echo " "
+mpv ~/storage/shared/Fam-Hacker_Client/sfx/High_Value.mp3 >/dev/null 2>/dev/null
+echo " "
+echo " "
 
 # Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*
