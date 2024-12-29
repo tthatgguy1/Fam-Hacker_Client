@@ -15,13 +15,13 @@ echo '
       ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
       ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
       ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
-   --------------------[Nah-Fam_Studios]-----------------------' | lolcat
+   --------------------[Nah-Fam_Studios]-----------------------' | lolcat \-a
 
 echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
-'date' | lolcat
-cowsay -r 'Nah-Bitch' | lolcat
-toilet -f small 'Fam-Hacker' -F gay
+'date' | lolcat \-a
+cowsay -r 'Nah-Bitch' | lolcat \-a
+toilet -r 'Fam Torrenter' | lolcat \-a
 echo " "
 # getting the latest file .torrent file
 cd downloads
@@ -30,7 +30,7 @@ echo " "
 # file info
 echo " "
 echo -e "\e[4;1;32m" "Downloading" "\e(B\e[m"
-echo "${newf}" | lolcat \-a
+echo "${newf}" | lolcat
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
 echo " "
