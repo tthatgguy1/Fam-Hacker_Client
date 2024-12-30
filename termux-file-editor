@@ -21,7 +21,7 @@ echo " "
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 'date' | lolcat \-a
 cowsay -r 'Nah-Bitch' | lolcat \-a
-toilet -r 'Fam Torrenter' | lolcat \-a
+toilet -f small 'Fam-Torrenter' -F border | lolcat \-a
 echo " "
 # getting the latest file .torrent file
 cd downloads
