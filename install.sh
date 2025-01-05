@@ -11,7 +11,7 @@ sleep 2
 echo " "
 #Update Packages
 echo " "
-echo -e "\e[035m"  "Updating default packages\n"
+echo -e "\e[035m" "Updating default packages\n"
 echo -e "\e[1;36m"
 "pkg" update -y
 "pkg" upgrade -y
@@ -40,7 +40,7 @@ echo -e "\e[1;36m"
 echo " "
 echo -e ".\e(B\e[m" 
 echo " "
-echo -e "\e[032m"  "Making the Youtube Directory to download the Vidoes\n"
+echo -e "\e[032m" "Making the Youtube Directory to download the Vidoes\n"
 sleep 3
 echo " "
 
