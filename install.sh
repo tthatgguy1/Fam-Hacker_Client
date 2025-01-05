@@ -15,7 +15,14 @@ echo '
 ██╔══╝  ██╔══██║ ██║╚██╔╝██║  ██╔══██║ ██╔══██║ ██║      ██╔═██╗  ██╔══██╗
 ██║     ██║──██║ ██║─╚═╝─██║  ██║──██║ ██║──██║ ─██████╗ ██║──██╗ ██║──██║
 ╚═╝     ╚═╝──╚═╝ ╚═╝─────╚═╝  ╚═╝──╚═╝ ╚═╝──╚═╝  ╚═════╝ ╚═╝──╚═╝ ╚═╝──╚═╝
----------------------------[Nah-Fam_Studios]------------------------------' | lolcat
+
+	████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
+	╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
+	   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   
+	   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
+	   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
+	   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
+---------------------------[Nah-Fam_Studios]------------------------------' | lolcat \-a
 echo " "
 'date' | lolcat
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
@@ -43,21 +50,20 @@ echo -e "\e[1;36m"
 "pkg" install aria2 -y
 echo " "
 echo -e " \e(B\e[m" 
-clear
+echo " "
 echo " "
 sleep 3
-echo " "
 
 #Request Storage Access
 echo -e "\e[35m" "Requesting access to storage!\n"
 echo -e "\e[1;35m" "Allow Storage Permission!\n"
 echo -e "\e[1;31m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
 echo -e "\e[36m"
-"termux-setup-storage"
+termux-setup-storage
 echo " "
 echo -e " \e(B\e[m" 
 echo " "
-echo -e "\e[032m" "Making the Youtube Directory to download the Vidoes\n"
+echo -e "\e[032m" "Making the Directory to download the Vidoes\n"
 sleep 3
 echo " "
 
@@ -75,7 +81,7 @@ sleep 3
 echo " "
 
 #Creating Termux\033[34m-\033[0mFile-Editor Script
-echo -e "\e[1;34m" "Creating termux-file-editor script\n"
+echo "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
 echo -e "\e[1;33m" "Completing termux-file-editor script\n"
 echo -e "\e[1;36m"
 "chmod" +x termux-file-editor
