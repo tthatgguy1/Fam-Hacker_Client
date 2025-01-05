@@ -4,13 +4,14 @@
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
 
-#Sound & Test
+## Sound 1
 clear
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 echo " "
 sleep 2
+echo " "
 
-#Torrent Logo & Date
+## Torrent Logo & Date
 echo " "
 echo " "
 echo '
@@ -31,17 +32,16 @@ echo " "
 sleep 2
 echo " "
 
-# getting the latest file .torrent file
+## Getting the Latest File .torrent File
 cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
 sleep 2
 echo " "
 
-# file info
+## File Info
 echo " "
-echo -e "\e[32m" "Downloading Torrent Meta-Info" "\e(B\e[m"
-echo " "
+echo -e "\e[32m" "Retrieving Meta-Data" "\e(B\e[m"
 echo "${newf}" | lolcat
 echo " "
 echo " "
@@ -50,7 +50,7 @@ echo " "
 sleep 2
 echo " "
 
-# Aria2 Download
+## Aria2 Download
 echo " "
 echo " "
 echo -e "\e[3;2#"
@@ -62,19 +62,19 @@ echo " "
 sleep 2
 echo " "
 
-#Sound 2
+## Sound 2
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
 echo " "
 sleep 2
 echo " "
 
-# Removing Files in /data/data/com.termux/files/home/downloads/
+## Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*
 echo " "
 sleep 2
 echo " "
 
-# Quit Menu
+## Quit Menu
 echo " "
 echo -e "[\033[1;31mEnter\033[0m] Press Enter to \033[1;33mQuit\033[0m\033[1;31m!\033[0m"
 echo " "
