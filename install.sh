@@ -92,6 +92,7 @@ echo -e ".\e(B\e[m"
 echo " "
 sleep 3
 echo " "
+clear
 
 #Cowsay & End Prompt
 cowsay -f meow 'Complete' | lolcat \-a
