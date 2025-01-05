@@ -10,9 +10,9 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 1
 #Update Packages
 echo " "
-echo -e "\e[5;1;33m" "Updating default packages"
+echo -e "\e[5;1;33m" "Updating default packages\n"
 sleep 2
-echo -e "\e[5;1;33m" "Stand By..."
+echo -e "\e[5;1;33m" "Stand By...\n"
 echo " "
 sleep 2
 echo " "
