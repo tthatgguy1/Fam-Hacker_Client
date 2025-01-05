@@ -4,7 +4,19 @@
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
 
+#Torrent Logo & Date
 clear
+echo " "
+echo " "
+echo '
+████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
+╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
+   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   
+   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
+   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
+   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
+--------------------[Nah-Fam_Studios]-----------------------' | lolcat
+echo " "
 'date' | lolcat
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
@@ -96,7 +108,7 @@ clear
 
 #Cowsay & End Prompt
 cowsay -f meow 'Complete' | lolcat \-a
-toilet -f small 'Fully Installed' -F border \-a
+toilet -f small 'Install 100%' -F border | lolcat \-a
 echo " "
 echo -e "\e[5;1;33m" "You can open .torrent files with termux when selecting EDIT"
 sleep 30
