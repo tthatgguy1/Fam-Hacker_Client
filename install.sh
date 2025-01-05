@@ -11,8 +11,12 @@ sleep 2
 echo " "
 #Update Packages
 echo " "
-echo -e "\e[035m" "Updating default packages\n"
-echo -e "\e[1;36m"
+echo -e "\e[35m" "Updating default packages\n"
+echo " "
+sleep 2
+echo " "
+echo -e "\e[1;35m" "Still.. updating packages\n"
+echo -e "\e[36m"
 "pkg" update -y
 "pkg" upgrade -y
 echo " "
@@ -21,8 +25,8 @@ sleep 3
 echo " "
 
 #Install Aria2 Termux
-echo -e "\e[5;36m" "Installing Required Packages\n"
-echo -e "\e[1;36m"
+echo -e "\e[34m" "Installing Required Packages\n"
+echo -e "\e[1;34m"
 "pkg" install aria2 -y
 echo " "
 echo -e ".\e(B\e[m" 
@@ -32,10 +36,10 @@ sleep 3
 echo " "
 
 #Request Storage Access
-echo -e "\e[1;34m" "Requesting access to storage!\n"
-echo -e "\e[1;34m" "Allow Storage Permission!\n"
+echo -e "\e[35m" "Requesting access to storage!\n"
+echo -e "\e[1;35m" "Allow Storage Permission!\n"
 echo -e "\e[1;31m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
-echo -e "\e[1;36m"
+echo -e "\e[36m"
 "termux-setup-storage"
 echo " "
 echo -e ".\e(B\e[m" 
@@ -88,7 +92,10 @@ echo -e ".\e(B\e[m"
 echo " "
 sleep 3
 echo " "
+
+#Cowsay & End Prompt
 cowsay -f meow 'Complete' | lolcat \-a
 toilet -f small 'Fully Installed' -F border \-a
 echo " "
+echo -e "\e[5;1;33m" "You can open .torrent files with termux when selecting EDIT"
 sleep 30
