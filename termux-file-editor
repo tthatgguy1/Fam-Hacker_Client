@@ -21,7 +21,7 @@ echo '
    ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
    ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
---------------------[Nah-Fam_Studios]-----------------------' | lolcat \-a
+ -------------------[Nah-Fam_Studios]----------------------' | lolcat \-a
 echo " "
 echo " "
 				  'date' | lolcat \-a
@@ -41,7 +41,7 @@ echo " "
 
 ## File Info
 echo " "
-echo -e "\e[32m" "Retrieving Meta-Data" "\e(B\e[m"
+echo -e "\e[32m" "Retrieving Meta-Data\n"
 echo "${newf}" | lolcat
 echo " "
 echo " "
@@ -53,11 +53,11 @@ echo " "
 ## Aria2 Download
 echo " "
 echo " "
-echo -e "\e[3;2#"
+echo -e "\e[32m"
 "aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}" 
 echo " "
 echo " "
-echo ".\e(B\e[m"
+echo " \e(B\e[m"
 echo " "
 sleep 2
 echo " "

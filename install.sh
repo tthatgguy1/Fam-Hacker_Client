@@ -33,7 +33,7 @@ echo -e "\e[36m"
 "pkg" update -y
 "pkg" upgrade -y
 echo " "
-echo -e ".\e(B\e[m" 
+echo -e " \e(B\e[m" 
 sleep 3
 echo " "
 
@@ -42,7 +42,7 @@ echo -e "\e[35m" "Installing Required Packages\n"
 echo -e "\e[1;36m"
 "pkg" install aria2 -y
 echo " "
-echo -e ".\e(B\e[m" 
+echo -e " \e(B\e[m" 
 clear
 echo " "
 sleep 3
@@ -55,7 +55,7 @@ echo -e "\e[1;31m" "Highly recommending that you grant Storage Permission, or yo
 echo -e "\e[36m"
 "termux-setup-storage"
 echo " "
-echo -e ".\e(B\e[m" 
+echo -e " \e(B\e[m" 
 echo " "
 echo -e "\e[032m" "Making the Youtube Directory to download the Vidoes\n"
 sleep 3
@@ -69,7 +69,7 @@ echo -e "\e[1;36m"
 "mkdir" ~/bin
 "mkdir" ~/storage/shared/sfx
 echo " "
-echo -e ".\e(B\e[m" 
+echo -e " \e(B\e[m" 
 echo " "
 sleep 3
 echo " "
@@ -80,12 +80,12 @@ echo -e "\e[1;33m" "Completing termux-file-editor script\n"
 echo -e "\e[1;36m"
 "chmod" +x termux-file-editor
 echo " "
-echo -e ".\e(B\e[m" 
+echo -e " \e(B\e[m" 
 echo " "
 echo -e "\e[1;36m"
 "mv" termux-file-editor ~/bin/
 echo " "
-echo -e ".\e(B\e[m"
+echo -e " \e(B\e[m"
 echo " "
 sleep 3
 
