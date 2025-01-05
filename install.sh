@@ -10,40 +10,35 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 #Update Packages
 echo " "
-echo " "
 echo -e "\e[5;1;33m" "Updating default packages"
-sleep 1.5
+sleep 2
 echo -e "\e[5;1;33m" "Stand By..."
-echo " "
 echo " "
 sleep 2
 "pkg" update -y
 "pkg" upgrade -y
 echo -e ".\e(B\e[m"
 echo " "
-echo " "
-sleep 1
+sleep 2
 #Install Aria2 Termux
 echo -e "\e[5;36m" "Installing Required Packages\n"
 echo -e "\e[1;36m"
 "pkg" install aria2 -y
 echo " "
-echo " "
 echo -e ".\e(B\e[m" 
 clear
-echo " "
 echo " "
 sleep 3
 #Request Storage Access
 echo -e "\e[1;34m" "Requesting access to storage!\n"
 echo -e "\e[1;34m" "Allow Storage Permission!\n"
+echo -e " "
 echo -e "\e[1;31m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
 echo -e "\e[1;36m" 
 echo " "
-echo " "
+sleep 3
 "termux-setup-storage"
 echo -e ".\e(B\e[m"
-echo " "
 echo " "
 sleep 3
 #Making Directories
@@ -51,12 +46,10 @@ echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m
 echo -e "\e[1;34m" "Creating bin folder\n"
 echo -e "\e[1;36m"
 echo " "
-echo " "
 "mkdir" ~/storage/shared/Fam-Hacker_Client
 "mkdir" ~/bin
 "mkdir" ~/storage/shared/sfx
 echo -e ".\e(B\e[m"
-echo " "
 echo " "
 sleep 3
 #Creating Termux\033[34m-\033[0mFile-Editor Script
@@ -85,16 +78,13 @@ echo -e "\e[1;36m"
 "mv" ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3
 echo -e ".\e(B\e[m"
 echo " "
-echo " "
 sleep 7
 #Cowsay Ending
 cowsay -r 'Setting Up' | lolcat \-a
 sleep 2
-toilet -f small 'Install Complete' -F gay -F border
-echo " "
-echo " "
+toilet -f small 'Install Complete' -F border -F gay
 echo " "
 echo -e "\033[34mNow you can open any .torrent file and it will open in termux start Downloading.\033[0m"
-echo ""
 echo " "
-sleep 30
+echo " "
+sleep 100
