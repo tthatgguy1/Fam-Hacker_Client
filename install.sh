@@ -35,12 +35,12 @@ echo " "
 
 #Update Packages
 echo " "
-echo -e "\e[35m" "Updating default packages\n"
+echo -e "\033[1;33mUpdating\033[0m \033[1;31m[\033[0m\033[1;33mdefault packages\033[0m\033[1;31m]\033[0m"
 echo " "
 sleep 2
 echo " "
-echo -e "\e[1;35m" "Still.. updating packages\n"
-echo -e "\e[36m"
+echo -e "\033[1;33mStill Updating\033[0m \033[1;31m[\033[0m\033[1;33mdefault packages\033[0m\033[1;31m]\033[0m"
+echo -e "\e[33m"
 "pkg" update -y
 "pkg" upgrade -y
 echo " "
@@ -49,8 +49,8 @@ sleep 3
 echo " "
 
 #Install Aria2 Termux
-echo -e "\e[35m" "Installing Required Packages\n"
-echo -e "\e[1;36m"
+echo -e"Installing Required \033[1;31m[\033[0m\033[1;33mPackages\033[0m\033[1;31m]\033[0m"
+echo -e "\e[1;33m"
 "pkg" install aria2 -y
 echo " "
 echo -e " \e(B\e[m" 
@@ -59,10 +59,10 @@ echo " "
 sleep 3
 
 #Request Storage Access
-echo -e "\e[35m" "Requesting access to storage!\n"
-echo -e "\e[1;35m" "Allow Storage Permission!\n"
-echo -e "\e[1;31m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
-echo -e "\e[36m"
+echo -e "Requesting access to \033[1;31m[\033[0m\033[1;33mstorage!\033[0m\033[1;31m]\033[0m"
+echo -e "\e[1;33m" "Allow Storage Permission!\n"
+echo -e "\e[1;33m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
+echo -e "\e[31m"
 termux-setup-storage
 echo " "
 echo -e " \e(B\e[m" 

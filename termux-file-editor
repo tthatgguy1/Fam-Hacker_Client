@@ -79,7 +79,7 @@ case $bxx in
 	if [ "$xconf" != "${xconf#[Yy]}" ] ; then
     clear
 		toilet -f small 'Enjoy!' -F border | lolcat \-a
-    echo "
+    echo '
                         _
                       .!=!.
                       \===/
@@ -112,7 +112,7 @@ case $bxx in
                       |>X<|
                       |>X<|
                       \\ //
-                       \V/" | lolcat --animate 200
+                       \V/' | lolcat --animate 200
 	else
 		echo "Quiting the Menu.."
 
