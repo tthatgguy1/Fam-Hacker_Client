@@ -44,37 +44,23 @@ echo " "
 echo " "
 sleep 1.0
 
-## Getting the Latest File Torrent File
-echo " "
-echo " "
-echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
-echo " "
-echo " "
-sleep 1.0
-
 ## Aria2 Download
-echo " "
-echo " "
+echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
 echo -e "\e[32m"
-echo " "
 echo " "
 "aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}" 
 echo " "
-echo " "
 echo -e " \e(B\e[m"
-echo " "
 echo " "
 sleep 1.0
 
 ## Sound 2
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
 echo " "
-echo " "
 sleep 1.0
 
 ## Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*
-echo " "
 echo " "
 sleep 1.0
 
