@@ -35,6 +35,8 @@ echo " "
 echo " "
 
 ## File Info
+cd downloads
+newf=$(ls -Art | tail -n 1)
 echo " "
 cowsay -f meow "${newf}" | lolcat
 toilet -f small 'Downloading' -F border | lolcat \-a
@@ -43,8 +45,6 @@ echo " "
 sleep 1.0
 
 ## Getting the Latest File Torrent File
-cd downloads
-newf=$(ls -Art | tail -n 1)
 echo " "
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
