@@ -9,7 +9,7 @@ clear
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
-sleep 2
+sleep 1.0.0
 
 ## Torrent Logo & Date
 echo " "
@@ -23,12 +23,12 @@ echo '
 ██║     ██║──██║ ██║─╚═╝─██║  ██║──██║ ██║──██║ ─██████╗ ██║──██╗ ██║──██║
 ╚═╝     ╚═╝──╚═╝ ╚═╝─────╚═╝  ╚═╝──╚═╝ ╚═╝──╚═╝  ╚═════╝ ╚═╝──╚═╝ ╚═╝──╚═╝
 
-	████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
-	╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
-	   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   
-	   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
-	   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
-	   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
+  ████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗
+  ╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝
+     ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   
+     ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   
+     ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   
+     ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
 ---------------------------[Nah-Fam_Studios]------------------------------' | lolcat \-a
 echo " "
 echo " "
@@ -38,14 +38,14 @@ cowsay -f meow 'Ultra-Fast' | lolcat \-a
 toilet -f small 'Fam-Torrenter' -F border | lolcat \-a
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## Getting the Latest File Torrent File
 cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## File Info
 echo " "
@@ -56,7 +56,7 @@ echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## Aria2 Download
 echo " "
@@ -64,25 +64,25 @@ echo " "
 echo -e "\e[32m"
 echo " "
 echo " "
-"aria2c" --seed-time=0 -d --summary-interval=5000 --max-connection-per-server=10 -t /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}" 
+"aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=10 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}" 
 echo " "
 echo " "
 echo " \e(B\e[m"
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## Sound 2
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## Removing Files in /data/data/com.termux/files/home/downloads/
 rm -rf /data/data/com.termux/files/home/downloads/*
 echo " "
 echo " "
-sleep 2
+sleep 1.0
 
 ## Quit Menu
 echo " "
