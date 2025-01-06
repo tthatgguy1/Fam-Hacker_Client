@@ -28,7 +28,7 @@ clear
 #Logo 2
 echo ""
 echo ""
-'date' | lolcat
+date +"%l:%M:%S %p" | lolcat
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 echo " "
