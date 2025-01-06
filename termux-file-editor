@@ -48,8 +48,8 @@ sleep 1.0
 
 ## File Info
 echo " "
-toilet -f small "Retrieving Meta-Data" -F gay
-toilet -f big "${newf}" -F border | lolcat
+toilet "Downloading" -F gay -F border
+toilet -f small "${newf}" -F border | lolcat
 echo " "
 echo " "
 echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m \033[1;31mC\033[0m \033[1;33mtogether\033[0m, and then press \033[1;32mEnter\033[0m"
