@@ -49,7 +49,7 @@ sleep 3
 echo " "
 
 #Install Aria2 Termux
-echo -e"Installing Required \033[1;31m[\033[0m\033[1;33mPackages\033[0m\033[1;31m]\033[0m"
+echo -e "Installing Required \033[1;31m[\033[0m\033[1;33mPackages\033[0m\033[1;31m]\033[0m"
 echo -e "\e[1;33m"
 "pkg" install aria2 -y
 echo " "
@@ -85,7 +85,7 @@ sleep 3
 echo " "
 
 #Creating Termux\033[34m-\033[0mFile-Editor Script
-echo "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
+echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
 echo -e "\e[1;33m" "Completing termux-file-editor script\n"
 echo -e "\e[1;36m"
 "chmod" +x termux-file-editor
