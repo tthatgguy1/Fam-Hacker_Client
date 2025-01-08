@@ -110,7 +110,7 @@ case $bxx in
                        \V/" | lolcat --animate 200
 	else
 		echo Quiting the Menu.."
-
+                sleep 10.0
 	fi
 	;;
 esac
