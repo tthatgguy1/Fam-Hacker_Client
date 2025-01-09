@@ -105,7 +105,7 @@ echo -e "\e[1;34m" "Moving Sound Effects to Fam-Hacker_Client folder\n"
 echo -e "\e[1;36m"
 echo " "
 "mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
-"mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/MMF.mp3
+"mv" ~/Fam-Hacker_Client/data/MMF.mp3 ~/storage/shared/MMF.mp3
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
 "mv" ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
