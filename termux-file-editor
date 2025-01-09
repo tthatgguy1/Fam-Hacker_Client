@@ -48,8 +48,8 @@ echo " "
 sleep 1.0
 
 ## Sound 2
+mpv ~/storage/shared/Fam-Hacker_Client/sfx/MMF.mp3 >/dev/null 2>/dev/null
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
-mpv ~/Fam-Hacker_Client/data/MMF.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
 sleep 1.0
