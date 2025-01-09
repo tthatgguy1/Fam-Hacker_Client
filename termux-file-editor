@@ -30,7 +30,7 @@ echo '
 ───────╚═╝────╚═════╝ ╚═╝──╚═╝╚═╝──╚═╝╚══════╝╚═╝──╚═══╝───╚═╝────────────
 ---------------------------[Nah-Fam_Studios]------------------------------' | lolcat
 echo " "
-date +"%l:%M:%S %p" | lolcat --animate -d 500
+date +"%l:%M:%S %p" | lolcat --animate -d 50
 
 ## File Info
 cd downloads
