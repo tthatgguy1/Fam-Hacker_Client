@@ -4,29 +4,29 @@
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
 
-#Torrent Logo & Date
+# Fam-Hacker Torrent Logo & Date
 clear
 mpv ~/Fam-Hacker_Client/data/MMF.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
 echo '
-███████╗ █████╗──███╗───███╗──██╗──██╗──█████╗───██████╗─██╗──██╗─██████╗─
-██╔════╝██╔══██╗─████╗─████║──██║──██║─██╔══██╗─██╔════╝─██║─██╔╝─██╔══██╗
-█████╗──███████║─██╔████╔██║──███████║─███████║─██║──────█████╔╝──██████╔╝
-██╔══╝──██╔══██║─██║╚██╔╝██║──██╔══██║─██╔══██║─██║──────██╔═██╗──██╔══██╗
-██║─────██║──██║─██║─╚═╝─██║──██║──██║─██║──██║──██████╗ ██║──██╗─██║──██║
-╚═╝─────╚═╝──╚═╝─╚═╝─────╚═╝──╚═╝──╚═╝─╚═╝──╚═╝──╚═════╝─╚═╝──╚═╝─╚═╝──╚═╝
-────████████╗─██████╗─██████╗─██████╗─███████╗███╗───██╗████████╗─────────
-────╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗──██║╚══██╔══╝─────────
-───────██║───██║───██║██████╔╝██████╔╝█████╗──██╔██╗─██║───██║────────────
-───────██║───██║───██║██╔══██╗██╔══██╗██╔══╝──██║╚██╗██║───██║────────────
-───────██║───╚██████╔╝██║──██║██║──██║███████╗██║─╚████║───██║────────────
-───────╚═╝────╚═════╝ ╚═╝──╚═╝╚═╝──╚═╝╚══════╝╚═╝──╚═══╝───╚═╝────────────
+─███████╗╔█████╗─███╗───███╗─██╗──██╗╔█████╗─╔██████╗██╗──██╗██████╗─
+─██╔════╝██╔══██╗████╗─████║─██║──██║██╔══██╗██╔════╝██║─██╔╝██╔══██╗
+─█████╗──███████║██╔████╔██║─███████║███████║██║─────█████╔╝─██████╔╝
+─██╔══╝──██╔══██║██║╚██╔╝██║─██╔══██║██╔══██║██║─────██╔═██╗─██╔══██╗
+─██║─────██║──██║██║─╚═╝─██║─██║──██║██║──██║╚██████╗██║──██╗██║──██║
+─╚═╝─────╚═╝──╚═╝╚═╝─────╚═╝─╚═╝──╚═╝╚═╝──╚═╝─╚═════╝╚═╝──╚═╝╚═╝──╚═╝
+─██╗███╗───██╗███████╗████████╗╔█████╗─██╗─────██╗─────███████╗██████╗─
+─██║████╗──██║██╔════╝╚══██╔══╝██╔══██╗██║─────██║─────██╔════╝██╔══██╗
+─██║██╔██╗─██║███████╗───██║───███████║██║─────██║─────█████╗──██████╔╝
+─██║██║╚██╗██║╚════██║───██║───██╔══██║██║─────██║─────██╔══╝──██╔══██╗
+─██║██║─╚████║███████║───██║───██║──██║███████╗███████╗███████╗██║──██║
+─╚═╝╚═╝──╚═══╝╚══════╝───╚═╝───╚═╝──╚═╝╚══════╝╚══════╝╚══════╝╚═╝──╚═╝
 ---------------------------[Nah-Fam_Studios]------------------------------' | lolcat \-a
 echo " "
 clear
 
-#Logo 2
+# Logo 2
 echo ""
 echo ""
 date +"%l:%M:%S %p" | lolcat
@@ -34,7 +34,7 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
 echo " "
 
-#Update Packages
+# Update Packages
 echo " "
 echo -e "\033[1;33mUpdating\033[0m \033[1;31m[\033[0m\033[1;33mdefault packages\033[0m\033[1;31m]\033[0m"
 echo " "
@@ -49,7 +49,7 @@ echo -e " \e(B\e[m"
 sleep 3
 echo " "
 
-#Install Aria2 Termux
+# Install Aria2 Termux
 echo -e "Installing Required \033[1;31m[\033[0m\033[1;33mPackages\033[0m\033[1;31m]\033[0m"
 echo -e "\e[1;33m"
 "pkg" install aria2 -y
@@ -59,7 +59,7 @@ echo " "
 echo " "
 sleep 3
 
-#Request Storage Access
+# Request Storage Access
 echo -e "Requesting access to \033[1;31m[\033[0m\033[1;33mstorage!\033[0m\033[1;31m]\033[0m"
 echo -e "\e[1;33m" "Allow Storage Permission!\n"
 echo -e "\e[1;33m" "Highly recommending that you grant Storage Permission, or you will surely die!\n"
@@ -72,7 +72,7 @@ echo -e "\e[032m" "Making the Directory to download the Vidoes\n"
 sleep 3
 echo " "
 
-#Making Directories
+# Making Directories
 echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
 echo -e "\e[1;34m" "Creating bin folder\n"
 echo -e "\e[1;36m"
@@ -85,7 +85,7 @@ echo " "
 sleep 3
 echo " "
 
-#Creating Termux\033[34m-\033[0mFile-Editor Script
+# Creating Termux\033[34m-\033[0mFile-Editor Script
 echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
 echo -e "\e[1;33m" "Completing termux-file-editor script\n"
 echo -e "\e[1;36m"
@@ -100,7 +100,7 @@ echo -e " \e(B\e[m"
 echo " "
 sleep 3
 
-#Moving Sound Effects
+# Moving Sound Effects
 echo -e "\e[1;34m" "Moving Sound Effects to Fam-Hacker_Client folder\n"
 echo -e "\e[1;36m"
 echo " "
@@ -120,7 +120,7 @@ sleep 3
 echo " "
 clear
 
-#Cowsay & End Prompt
+# Cowsay & End Prompt
 cowsay -f meow 'Complete' | lolcat \-a
 toilet -f small 'Install 100%' -F border | lolcat \-a
 echo " "
