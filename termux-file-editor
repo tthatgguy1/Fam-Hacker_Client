@@ -114,7 +114,7 @@ case $bxx in
                       |>X<|
                       |>X<|
                       \\ //
-                       \V/" | lolcat --animate 200
+                       \V/" | lolcat \-a
 	else
 		echo Quiting the Menu.."
                 sleep 10.0
