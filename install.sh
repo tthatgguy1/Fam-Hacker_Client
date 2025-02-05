@@ -4,7 +4,7 @@
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
 
-## Fam-Hacker Torrent Logo & Date
+## Logo & Date
 clear
 mpv ~/Fam-Hacker_Client/data/MMF.mp3 >/dev/null 2>/dev/null
 echo " "
@@ -27,8 +27,8 @@ echo " "
 clear
 
 ## Logo 2
-echo ""
-echo ""
+echo " "
+echo " "
 date +"%l:%M:%S %p" | lolcat
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2
