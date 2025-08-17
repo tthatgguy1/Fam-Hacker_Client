@@ -53,11 +53,11 @@ echo -e  "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0
 echo " "
 "aria2c" --seed-time=0 --summary-interval=5000 --max-connection-per-server=16 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 sleep 2.0
-cd ~/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client
-sleep 2.0
+cd "/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client/"
+sleep 1.0
 shopt -s extglob
-mv !(sfx) ~/storage/shared/Flud+
-sleep 2.0
+mv !(sfx) "/data/data/com.termux/files/home/storage/shared/Flud+"
+sleep 1.0
 
 ## Sound 2
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/MMF.mp3 >/dev/null 2>/dev/null
