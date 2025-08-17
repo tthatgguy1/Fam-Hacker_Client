@@ -56,7 +56,7 @@ sleep 2.0
 cd "/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client/"
 sleep 1.0
 shopt -s extglob
-mv !(sfx) "/data/data/com.termux/files/home/storage/shared/Flud+"
+mv "$(ls -td -- */ | head -n1)" /data/data/com.termux/files/home/storage/shared/Flud+
 sleep 1.0
 
 ## Sound 2
