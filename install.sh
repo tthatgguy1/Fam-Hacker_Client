@@ -27,7 +27,7 @@ clear
 
 ## Logo 2
 echo " "
-date +"%l:%M:%S %p" | lolcat --animate -d 20
+date +"%l:%M:%S %p" | lolcat --animate -d 90
 echo " "
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
