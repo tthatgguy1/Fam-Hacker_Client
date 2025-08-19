@@ -157,15 +157,17 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 ## sfx To Fam-Hacker_Client
 "mv" ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client
 
+## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
+"mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam-Torrent-Kit
+"mv" ~/storage/shared/NFS-Flud-Pit/ ~/storage/shared/Nah-Fam-Torrent-Kit/
+
 ## Sound To sfx
 "mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3
 "mv" ~/storage/shared/MMF.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3
 "mv" ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Cooking_Great.mp3
 "mv" ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3
 
-## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
-"mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam-Torrent-Kit
-"mv" ~/storage/shared/NFS-Flud-Pit/ ~/storage/shared/Nah-Fam-Torrent-Kit/
+
 echo " "
 echo "Execution Complete" | lolcat --animate -d 100
 
