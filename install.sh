@@ -34,6 +34,19 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 sleep 2.0
 clear
 
+## Request Storage Access
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
+echo -e "\e[34m"
+"termux-setup-storage"
+echo -e " \e(B\e[m" 
+sleep 2.0
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 3.5
+clear
+
 ## Making Directories
 echo " "
 
@@ -148,19 +161,6 @@ mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 echo -e "\e[34m"
 "pkg" install cowsay -y
 echo -e " \e(B\e[m"
-sleep 2.0
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-sleep 3.5
-clear
-
-## Request Storage Access
-echo " "
-date +"%l:%M:%S %p" | lolcat
-echo " "
-echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
-echo -e "\e[34m"
-"termux-setup-storage"
-echo -e " \e(B\e[m" 
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
