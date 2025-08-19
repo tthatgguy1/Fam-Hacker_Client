@@ -32,9 +32,14 @@ echo " "
 date +"%l:%M:%S %p" | lolcat
 sleep 2.0
 echo " "
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+read
+clear
 
 ## Update Packages
 echo " "
+date +"%l:%M:%S %p" | lolcat
 echo " "
 echo " "
 echo -e "\033[1;34mUpdating\033[0m \033[1;36m[\033[0m\033[1;34mdefault packages\033[0m\033[1;36m]\033[0m"
@@ -55,6 +60,7 @@ clear
 
 ## Install Aria2 Termux
 echo " "
+date +"%l:%M:%S %p" | lolcat
 echo " "
 echo " "
 echo -e "\e[34mNow installing\e[0m \e[36maria2c\e[0m"
@@ -73,6 +79,7 @@ clear
 
 ## Request Storage Access
 echo " "
+date +"%l:%M:%S %p" | lolcat
 echo " "
 echo " "
 echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
@@ -92,6 +99,7 @@ clear
 
 ## Making Directories
 echo " "
+date +"%l:%M:%S %p" | lolcat
 echo " "
 echo " "
 echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
@@ -108,8 +116,17 @@ sleep 2.0
 echo " "
 echo -e "\e[34m"
 "mkdir" ~/storage/shared/Fam-Hacker_Client
+echo -e "\e[34mCreated\e[0m \e[31mFam\e[0m\e[33m-\e[0m\e[31mHacker\e[0m\e[33m_\e[0m\e[33mClient\e[0m"
+sleep 2.0
 "mkdir" ~/bin
+echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m
+sleep 2.0
 "mkdir" ~/storage/shared/sfx
+echo -e "\e[32mCreated\e[0m \e[36msfx\e[0m"
+sleep 2.0
+"mkdir" ~/storage/shared/NFS-Flud-Pit
+echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mFlud\e[0m\e[35m-\e[0m\e[36mPit\e[0m"
+echo " "
 echo " "
 echo -e " \e(B\e[m" 
 echo " "
@@ -119,7 +136,7 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 read
 clear
 
-## Creating Termux\033[34m-\033[0mFile-Editor Script
+## Create Termux-File-Editor Script
 echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
