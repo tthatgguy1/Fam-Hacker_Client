@@ -129,10 +129,8 @@ echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\033[1;34mUpdating\033[0m \033[1;36m[\033[0m\033[1;34mdefault packages\033[0m\033[1;36m]\033[0m"
-echo -e "\e[34m"
-"pkg" update -y
-"pkg" upgrade -y
-echo -e " \e(B\e[m"
+"pkg" update -y | lolcat
+"pkg" upgrade -y | lolcat
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
@@ -144,11 +142,9 @@ date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\e[34mNow installing\e[0m \e[36maria2c\e[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-echo -e "\e[34m"
-"pkg" install aria2 -y
-echo -e " \e(B\e[m"
+"pkg" install aria2 -y | lolcat
 sleep 2.0
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
 clear
 
@@ -158,39 +154,24 @@ date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\e[34mNow installing\e[0m \e[36mCowsay\e[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-echo -e "\e[34m"
-"pkg" install cowsay -y
-echo -e " \e(B\e[m"
+"pkg" install cowsay -y | lolcat
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
 clear
 
-## Pre-Directory
-echo " "
-date +"%l:%M:%S %p" | lolcat
-echo " "
-echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
-echo " "
-mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-sleep 2.0
-echo -e "\e[34mCreating necessary\e[0m \e[36mdirectories\e[0m \e[34mfor this script\e[0m"
-sleep 2.0
-
 ## Create Termux-File-Editor Script
 echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
-echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
-mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-sleep 3.0
-echo " "
 echo " "
 echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
-sleep 3.0
+echo " "
+sleep 2.0
 "chmod" +x termux-file-editor
 "mv" termux-file-editor ~/bin/
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m
+\e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
 clear
 
@@ -198,8 +179,8 @@ clear
 echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 10
 echo " "
-cowsay -f meow 'Complete' | lolcat
+cowsay -f -r 'NFS Torrent Kit Set-Up Is Complete' | lolcat --animate -d 75
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
+echo " " 
 echo "Execution Complete" | lolcat --animate -d 100
-cd ~/
