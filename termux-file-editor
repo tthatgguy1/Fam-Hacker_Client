@@ -55,6 +55,10 @@ echo " "
 sleep 2.0
 cd "/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client/"
 sleep 1.0
+
+## Move Completed File
+echo "Please \033[1;31mwait\033[0m while the \033[1;33mnew\033[0m file is \033[1;33mmoved\033[0m to \033[1;33mNah\033[0m\033[1;31m-\033[0m\033[1;33mFam\033[0m\033[1;31m_\033[0m\033[1;33mFlud\033[0m\033[1;31m-\033[0m\033[1;33mPit\033[0m"
+sleep 2.0
 shopt -s extglob
 mv "$(ls -td -- */ | head -n1)" /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Flud-Pit
 sleep 1.0
