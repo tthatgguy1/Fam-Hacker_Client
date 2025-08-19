@@ -96,7 +96,6 @@ echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2.0
 echo -e "\e[34mCreating necessary\e[0m \e[36mdirectories\e[0m \e[34mfor this script\e[0m\e[36m.\e[0m"
-mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2.0
 
 ## Making Directories
@@ -142,6 +141,7 @@ read
 clear
 
 ## Moving Sound Effects
+echo " "
 echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
 "mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 "mv" ~/Fam-Hacker_Client/data/MMF.mp3 ~/storage/shared/MMF.mp3
@@ -165,7 +165,6 @@ echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 10
 echo " "
 cowsay -f meow 'Complete' | lolcat \-a
-toilet -f mono9 'Complete' -F border | lolcat \-a
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
 cd ..
