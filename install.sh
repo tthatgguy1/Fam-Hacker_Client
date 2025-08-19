@@ -44,7 +44,7 @@ echo -e "\e[34m"
 echo -e " \e(B\e[m"
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 3.5
 clear
 
 ## Install Aria2 Termux
@@ -58,7 +58,7 @@ echo -e "\e[34m"
 echo -e " \e(B\e[m"
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 3.5
 clear
 
 ## Install Cowsay Termux
@@ -72,7 +72,7 @@ echo -e "\e[34m"
 echo -e " \e(B\e[m"
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 3.5
 clear
 
 ## Request Storage Access
@@ -84,6 +84,23 @@ echo -e "\e[34m"
 "termux-setup-storage"
 echo -e " \e(B\e[m" 
 sleep 2.0
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 3.5
+clear
+
+## Create Termux-File-Editor Script
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+sleep 3.0
+echo " "
+echo " "
+echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
+sleep 3.0
+"chmod" +x termux-file-editor
+"mv" termux-file-editor ~/bin/
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
@@ -127,23 +144,6 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 read
 clear
 
-## Create Termux-File-Editor Script
-echo " "
-date +"%l:%M:%S %p" | lolcat
-echo " "
-echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
-mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-sleep 3.0
-echo " "
-echo " "
-echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
-sleep 3.0
-"chmod" +x termux-file-editor
-"mv" termux-file-editor ~/bin/
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
-clear
-
 ## Moving Sound Effects
 echo " "
 echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
@@ -161,14 +161,11 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 "mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam-Torrent-Kit/
 "mv" ~/storage/shared/NFS-Flud-Pit/ ~/storage/shared/Nah-Fam-Torrent-Kit/
 
-echo " "
-echo "Execution Complete" | lolcat --animate -d 100
-
 ## Cowsay & End Prompt
 echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 10
 echo " "
-cowsay -f meow 'Complete' | lolcat \-a
+cowsay -f meow 'Complete' | lolcat
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
-read
+echo "Execution Complete" | lolcat --animate -d 100
