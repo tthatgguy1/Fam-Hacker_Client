@@ -93,6 +93,7 @@ echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
+echo " "
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2.0
 echo -e "\e[34mCreating necessary\e[0m \e[36mdirectories\e[0m \e[34mfor this script\e[0m"
@@ -100,23 +101,26 @@ sleep 2.0
 
 ## Making Directories
 echo " "
-echo " "
-"mkdir" '~/storage/shared/Nah-Fam's-Torrent-Kit'
+
+## Nah-Fam-Torrent-Kit
+"mkdir" ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[33m'\e[0m\e[36ms\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
+
+## ## NFS-Flud-Kit Folder 2
 "mkdir" ~/storage/shared/NFS-Flud-Pit
 echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mFlud\e[0m\e[35m-\e[0m\e[36mPit\e[0m"
+
+## Fam-Hacker_Client Folder 1
 "mkdir" ~/storage/shared/Fam-Hacker_Client
 echo -e "\e[32mCreated\e[0m \e[36mFam\e[0m\e[35m-\e[0m\e[36mHacker\e[0m\e[35m_\e[0m\e[36mClient\e[0m"
-sleep 2.0
+
+## Bin
 "mkdir" ~/bin
 echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m"
-sleep 2.0
+
+## sfx
 "mkdir" ~/storage/shared/sfx
 echo -e "\e[32mCreated\e[0m \e[36msfx\e[0m"
-sleep 2.0
-"mkdir" ~/storage/shared/NFS-Flud-Pit
-echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mFlud\e[0m\e[35m-\e[0m\e[36mPit\e[0m"
-sleep 2.0
 echo " "
 echo " "
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
@@ -148,17 +152,13 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
 "mv" ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
-"mv" ~/storage/shared/Fam-Hacker_Client/ '~/storage/shared/Nah-Fam's-Torrent-Kit/'
-"mv" ~/storage/shared/NFS-Flud-Pit/ '~/storage/shared/Nah-Fam's-Torrent-Kit/'
-"mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 '~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3'
-"mv" ~/storage/shared/MMF.mp3 '~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3'
-"mv" ~/storage/shared/Cooking_Great.mp3 '~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/Cooking_Great.mp3'
-"mv" ~/storage/shared/Secret_Sound.mp3 '~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3'
+"mv" ~/storage/shared/Fam-Hacker_Client/ '~/storage/shared/Nah-Fam-Torrent-Kit/'
+"mv" ~/storage/shared/NFS-Flud-Pit/ '~/storage/shared/Nah-Fam-Torrent-Kit/'
+"mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 '~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3'
+"mv" ~/storage/shared/MMF.mp3 '~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3'
+"mv" ~/storage/shared/Cooking_Great.mp3 '~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Cooking_Great.mp3'
+"mv" ~/storage/shared/Secret_Sound.mp3 '~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3'
 echo " "
-
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
-clear
 
 ## Cowsay & End Prompt
 echo " "
