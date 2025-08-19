@@ -35,6 +35,8 @@ echo " "
 
 ## Update Packages
 echo " "
+echo " "
+echo " "
 echo -e "\033[1;34mUpdating\033[0m \033[1;36m[\033[0m\033[1;34mdefault packages\033[0m\033[1;36m]\033[0m"
 echo " "
 echo " "
@@ -52,6 +54,9 @@ read
 clear
 
 ## Install Aria2 Termux
+echo " "
+echo " "
+echo " "
 echo -e "\e[34mNow installing\e[0m \e[36maria2c\e[0m"
 echo " "
 echo " "
@@ -67,6 +72,9 @@ read
 clear
 
 ## Request Storage Access
+echo " "
+echo " "
+echo " "
 echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
 echo " "
 echo -e "\e[34m"
@@ -83,6 +91,8 @@ read
 clear
 
 ## Making Directories
+echo " "
+echo " "
 echo " "
 echo -e "\033[1;34mMaking your new directory to\033[0m \033[1;36mdownload\033[0m \033[1;34mvideos\033[0m"
 echo " "
@@ -119,6 +129,8 @@ echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033
 echo " "
 echo " "
 echo " "
+echo " "
+sleep 3.0
 echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 echo " "
