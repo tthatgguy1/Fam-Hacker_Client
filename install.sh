@@ -116,18 +116,20 @@ echo -e "NFS-Flud-Pit has been moved Successfully" | lolcat
 echo " "
 
 ## sfx To NFS-Data
-"mv" ~/storage/shared/sfx ~/storage/shared/NFS-Data
+"mv" ~/storage/shared/sfx ~/storage/shared/.NFS-Data
 echo -e "sfx has been moved Successfully" | lolcat
 echo " "
 
 ## NFS-Data to Nah-Fam-Torrent-Kit
-"mv" ~/storage/shared/NFS-Data ~/storage/shared/Nah-Fam-Torrent-Kit
+"mv" ~/storage/shared/.NFS-Data ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "NFS-Data has been moved Successfully" | lolcat
 echo " "
 
 ## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
 "mv" ~/storage/shared/Fam-Hacker_Client ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "Fam-Hacker_Client has been moved Successfully" | lolcat
+sleep 3.5
+clear
 
 ## Update Packages
 echo " "
