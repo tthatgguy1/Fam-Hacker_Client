@@ -88,23 +88,6 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 sleep 3.5
 clear
 
-## Create Termux-File-Editor Script
-echo " "
-date +"%l:%M:%S %p" | lolcat
-echo " "
-echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
-mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
-sleep 3.0
-echo " "
-echo " "
-echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
-sleep 3.0
-"chmod" +x termux-file-editor
-"mv" termux-file-editor ~/bin/
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-sleep 3.5
-clear
-
 ## Pre-Directory
 echo " "
 date +"%l:%M:%S %p" | lolcat
@@ -173,6 +156,23 @@ echo -e "NFS-Data has been moved Successfully" | lolcat
 ## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
 "mv" ~/storage/shared/Fam-Hacker_Client ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "Fam-Hacker_Client has been moved Successfully" | lolcat
+
+## Create Termux-File-Editor Script
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+sleep 3.0
+echo " "
+echo " "
+echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
+sleep 3.0
+"chmod" +x termux-file-editor
+"mv" termux-file-editor ~/bin/
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 3.5
+clear
 
 ## Cowsay & End Prompt
 echo " "
