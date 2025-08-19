@@ -1,3 +1,4 @@
+
 #!/data/data/com.termux/files/usr/bin/bash
 # Project name : Fam-Hacker_Client
 # Coded by: tthatgguy1 (You dont become a coder by just changing the credits)
@@ -182,3 +183,4 @@ cowsay -f meow 'Complete' | lolcat
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
 echo "Execution Complete" | lolcat --animate -d 100
+cd ~/
