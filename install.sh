@@ -43,6 +43,7 @@ echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0
 termux-setup-storage | lolcat
 sleep 2.0
 echo " "
+echo " "
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 clear
 
@@ -112,20 +113,21 @@ echo " "
 "mv" ~/storage/shared/NFS-Flud-Pit ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "NFS-Flud-Pit has been moved Successfully" | lolcat
 echo " "
+echo " "
 
 ## sfx To NFS-Data
 "mv" ~/storage/shared/sfx ~/storage/shared/.NFS-Data
-echo -e "sfx has been moved Successfully" | lolcat
+echo -e "\e[34msfx has been\e[0m \e[36mmoved\e[0m \e[34mSuccessfully\e[0m"
 echo " "
 
 ## NFS-Data to Nah-Fam-Torrent-Kit
 "mv" ~/storage/shared/.NFS-Data ~/storage/shared/Nah-Fam-Torrent-Kit
-echo -e "NFS-Data has been moved Successfully" | lolcat
+echo -e "\e[34mNFS\e[0m\e[35m-\e[0m\e[34mData\e[0m \e[34mhas been\e[0m \e[36mmoved\e[0m \e[34mSuccessfully\e[0m"
 echo " "
 
 ## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
 "mv" ~/storage/shared/Fam-Hacker_Client ~/storage/shared/Nah-Fam-Torrent-Kit
-echo -e "Fam-Hacker_Client has been moved Successfully" | lolcat
+echo -e "\e[34mFam\e[0m\e[35m-\e[0m\e[34mHacker\e[0m\e[35m_\e[0m\e[34mClient\e[0m \e[34mhas been\e[0m \e[36mmoved\e[0m \e[34mSuccessfully\e[0m" | lolcat
 sleep 3.5
 clear
 
