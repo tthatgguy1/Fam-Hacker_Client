@@ -76,7 +76,7 @@ echo -e "\e[32mCreated\e[0m \e[36msfx\e[0m"
 echo " "
 echo " "
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 4.0
 clear
 
 ## Moving Sound Effects
