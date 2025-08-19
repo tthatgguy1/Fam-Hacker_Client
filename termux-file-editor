@@ -44,7 +44,7 @@ cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
 cowsay -r "${newf}" | lolcat
-toilet -f smascii12 -f slant 'Starting' -F border | lolcat \-a
+toilet -f smascii12 -f smascii9 'Starting' -F border | lolcat \-a
 echo " "
 sleep 1.0
 
@@ -96,9 +96,12 @@ sleep 1.0
 rm -rf /data/data/com.termux/files/home/downloads/*
 echo " "
 echo " "
+echo -e "\e[33mExecution Success\e[0m\e[31m!\e[0m"
 sleep 1.0
 
 ## Quit Menu
 echo " "
 echo -e "\e[95m[\e[0m\e[34mEnter\e[0m\e[95m]\e[0m \e[34mPress The\e[0m \e[36mEnter\e[0m \e[34mKey Or\e[0m \e[36mAny\e[0m \e[34mKey To\e[0m \e[93mQuit\e[0m"
 echo " "
+echo " "
+read
