@@ -84,7 +84,7 @@ mpv ~/storage/shared/Nah-Fam-Torrent-Kit/.NFS-Data/sfx/Secret_Sound.mp3 >/dev/nu
 sleep 1.0
 
 ## Removing Files in /data/data/com.termux/files/home/downloads/
-rm -rvf /data/data/com.termux/files/home/downloads/*
+rm -rf /data/data/com.termux/files/home/downloads/*
 echo " "
 echo " "
 echo -e "\e[33mExecution Success\e[0m\e[31m!\e[0m"
