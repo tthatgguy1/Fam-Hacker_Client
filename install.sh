@@ -21,7 +21,7 @@ echo '
 ─██║██║╚██╗██║╚════██║───██║───██╔══██║██║─────██║─────██╔══╝──██╔══██╗
 ─██║██║─╚████║███████║───██║───██║──██║███████╗███████╗███████╗██║──██║
 ─╚═╝╚═╝──╚═══╝╚══════╝───╚═╝───╚═╝──╚═╝╚══════╝╚══════╝╚══════╝╚═╝──╚═╝
----------------------------[Nah-Fam_Studios]------------------------------' | lolcat \-a
+---------------------------[Nah-Fam_Studios]------------------------------' | lolcat
 echo " "
 clear
 
@@ -30,7 +30,7 @@ echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 90
 echo " "
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 2.0
 clear
 
 ## Update Packages
@@ -102,7 +102,7 @@ sleep 3.0
 "chmod" +x termux-file-editor
 "mv" termux-file-editor ~/bin/
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-read
+sleep 3.5
 clear
 
 ## Pre-Directory
