@@ -44,7 +44,7 @@ cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
 cowsay -r "${newf}" | lolcat
-toilet -f small -f slant 'Downloading' -F border | lolcat \-a
+toilet -f smascii12 -f slant 'Starting' -F border | lolcat \-a
 echo " "
 sleep 1.0
 
