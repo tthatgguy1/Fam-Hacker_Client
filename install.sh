@@ -137,7 +137,13 @@ date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\033[1;34mUpdating\033[0m \033[1;36m[\033[0m\033[1;34mdefault packages\033[0m\033[1;36m]\033[0m"
 "pkg" update -y | lolcat
+echo " "
 "pkg" upgrade -y | lolcat
+echo " "
+"apt" update -y | lolcat
+echo " "
+"apt" upgrade -y |lolcat
+echo " "
 sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
@@ -190,3 +196,6 @@ echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
 echo " " 
 echo "Execution Complete" | lolcat --animate -d 100
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+read
