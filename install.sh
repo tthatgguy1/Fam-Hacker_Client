@@ -116,7 +116,7 @@ sleep 2.0
 echo " "
 echo " "
 "mkdir" ~/storage/shared/Fam-Hacker_Client
-echo - e "\e[32mCreated\e[0m \e[36mFam\e[0m\e[35m-\e[0m\e[36mHacker\e[0m\e[35m_\e[0m\e[36mClient\e[0m"
+echo -e "\e[32mCreated\e[0m \e[36mFam\e[0m\e[35m-\e[0m\e[36mHacker\e[0m\e[35m_\e[0m\e[36mClient\e[0m"
 sleep 2.0
 "mkdir" ~/bin
 echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m"
