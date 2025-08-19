@@ -46,6 +46,8 @@ echo " "
 echo -e " \e(B\e[m"
 echo " "
 sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
 
@@ -59,6 +61,8 @@ echo " "
 echo " "
 echo " "
 sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
 
@@ -72,7 +76,9 @@ echo " "
 echo -e " \e(B\e[m" 
 echo " "
 echo " "
-sleep 3.0
+sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
 
@@ -97,6 +103,9 @@ echo -e "\e[34m"
 echo " "
 echo -e " \e(B\e[m" 
 echo " "
+sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
 
@@ -104,7 +113,10 @@ clear
 echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
+echo " "
+echo " "
 echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
+echo " "
 echo " "
 echo " "
 echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
@@ -120,7 +132,11 @@ echo " "
 echo " "
 echo -e " \e(B\e[m"
 echo " "
-sleep 3
+sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+read
+clear
 
 ## Moving Sound Effects
 echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
@@ -139,12 +155,16 @@ echo " "
 echo " "
 echo -e ".\e(B\e[m"
 echo " "
+sleep 2.0
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
 
 ## Cowsay & End Prompt
 cowsay -f meow 'Complete' | lolcat \-a
-toilet -f small 'Install 100%' -F border | lolcat \-a
+toilet -f mono9 'Complete' -F border | lolcat \-a
+echo " "
 echo " "
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
