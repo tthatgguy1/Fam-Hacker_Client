@@ -101,7 +101,7 @@ sleep 2.0
 ## Making Directories
 echo " "
 echo " "
-"mkdir" ~/storage/shared/Nah-Fam's-Torrent-Kit
+"mkdir" '~/storage/shared/Nah-Fam's-Torrent-Kit'
 echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[33m'\e[0m\e[36ms\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
 "mkdir" ~/storage/shared/NFS-Flud-Pit
 echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mFlud\e[0m\e[35m-\e[0m\e[36mPit\e[0m"
