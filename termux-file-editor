@@ -54,27 +54,33 @@ echo " "
 "aria2c" --select-file=1 --seed-time=0 --summary-interval=5000 --max-connection-per-server=16 -d /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client "/data/data/com.termux/files/home/downloads/${newf}"
 echo " "
 echo " "
-echo " "
-echo "Directing \033[1;31mTermux\033[0m to Fam-Hacker_Client"
-cd "/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client/"
-sleep 1.0
-
-## Move Completed File
-echo " "
-echo "\033[1;33mFam\033[0m\033[1;31m-\033[0m\033[1;33mHacker\033[0m is \033[1;33mready\033[0m to move the \033[1;33mcompleted\033[0m file to \033[1;33mFam\033[0m\033[1;31m-\033[0m\033[1;33mHacker\033[0m\033[1;31m_\033[0m\033[1;33mClient\033[0m"
-echo " "
-echo "Press \033[1;33mAny\033[0m button to \033[1;31mexecute\033[0m the transfer"
-echo " "
-read
-shopt -s extglob
-mv "$(ls -td -- */ | head -n1)" /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Flud-Pit
-sleep 1.0
 
 ## Sound 2
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/MMF.mp3 >/dev/null 2>/dev/null
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
 echo " "
 echo " "
+sleep 1.0
+
+## Termux Move
+echo " "
+echo -e "Directing \033[1;31mTermux\033[0m to Fam-Hacker_Client"
+echo " "
+cd "/data/data/com.termux/files/home/storage/shared/Fam-Hacker_Client/"
+echo " "
+sleep 2.0
+
+## Move Completed File
+echo " "
+echo " "
+echo -e "\e[93mFam\e[0m\e[91m-\e[0m\e[93mHacker\e[0m \e[34mis ready to\e[0m \e[36mmove\e[0m \e[34mthe\e[0m \e[92mcompleted\e[0m \e[34mfile to the\e[0m \e[93mFam\e[0m\e[91m-\e[0m\e[93mHacker\e[0m\e[91m_\e[0m\e[93mClient\e[0m \e[34mdirectory\e[0m"
+echo " "
+echo -e "\e[34mPlease\e[0m \e[36mpress\e[0m \e[95many\e[0m \e[34mbutton to\e[0m \e[36mexecute\e[0m \e[34mthis process\e[0m"
+echo " "
+read
+echo " "
+shopt -s extglob
+mv "$(ls -td -- */ | head -n1)" /data/data/com.termux/files/home/storage/shared/Fam-Hacker_Flud-Pit
 sleep 1.0
 
 ## Removing Files in /data/data/com.termux/files/home/downloads/
@@ -85,5 +91,5 @@ sleep 1.0
 
 ## Quit Menu
 echo " "
-echo -e "\033[1;31m[\033[0m\033[1;33mEnter\033[0m\033[1;31m]\033[0m Press Enter to \033[1;33mQuit\033[0m\033[1;31m!\033[0m"
+echo -e "\e[95m[\e[0m\e[34mEnter\e[0m\e[95m]\e[0m \e[34mPress The\e[0m \e[36mEnter\e[0m \e[34mKey Or\e[0m \e[36mAny\e[0m \e[34mKey To\e[0m \e[93mQuit\e[0m"
 echo " "
