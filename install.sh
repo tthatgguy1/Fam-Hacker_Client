@@ -1,9 +1,9 @@
-
 #!/data/data/com.termux/files/usr/bin/bash
 # Project name : Fam-Hacker_Client
 # Coded by: tthatgguy1 (You dont become a coder by just changing the credits)
 # Github: https://github.com/tthatgguy1/Fam-Hacker_Client
 # Date : 12/04/2024
+# Updated 08/19/2025
 
 ## Logo & Date
 clear
@@ -31,7 +31,7 @@ clear
 echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 90
 echo " "
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 2.0
 clear
 
@@ -40,12 +40,10 @@ echo " "
 date +"%l:%M:%S %p" | lolcat
 echo " "
 echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
-echo -e "\e[34m"
-"termux-setup-storage"
-echo -e " \e(B\e[m" 
+termux-setup-storage | lolcat
 sleep 2.0
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-sleep 3.5
+echo " "
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 clear
 
 ## Making Directories
@@ -76,7 +74,7 @@ echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m"
 echo -e "\e[32mCreated\e[0m \e[36msfx\e[0m"
 echo " "
 echo " "
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 4.0
 clear
 
@@ -177,16 +175,15 @@ echo " "
 sleep 2.0
 "chmod" +x termux-file-editor
 "mv" termux-file-editor ~/bin/
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m
-\e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.5
 clear
 
 ## Cowsay & End Prompt
 echo " "
-date +"%l:%M:%S %p" | lolcat --animate -d 10
+date +"%l:%M:%S %p" | lolcat --animate -d 15
 echo " "
-cowsay -f 'NFS Torrent Kit Set-Up Is Complete' -r | lolcat --animate -d 75
+cowsay -f 'NFS Torrent Kit Set-Up Is Complete' -r | lolcat
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
 echo " " 
