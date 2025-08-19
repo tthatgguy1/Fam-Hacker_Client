@@ -6,7 +6,6 @@
 
 ## Sound 1
 clear
-mpv ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
 sleep 1.0
 
 ## Torrent Logo & Date
@@ -50,8 +49,8 @@ echo -e "To \033[1;31mQuit\033[0m press \033[1;31mctrl\033[0m \033[1;33m+\033[0m
 
 ## Sound 2
 echo " "
-mpv ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3 >/dev/null 2>/dev/null
-mpv ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
+mpv ~/storage/shared/Nah-Fam-Torrent-Kit/NFS-Data/sfx/MMF.mp3 >/dev/null 2>/dev/null
+mpv ~/storage/shared/Nah-Fam-Torrent-Kit/NFS-Data/sfx/TLOZ-WW_Heart_Container.mp3 >/dev/null 2>/dev/null
 sleep 1.0
 
 ## Termux Move
