@@ -152,7 +152,7 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 "mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/sfx/Secret_Sound.mp3
 "mv" ~/Fam-Hacker_Client/data/MMF.mp3 ~/storage/shared/sfx/MMF.mp3
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/sfx/TLOZ-WW_Heart_Container.mp3
-"mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/sfx/shared/Cooking_Great.mp3
+"mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/sfx/Cooking_Great.mp3
 
 ## sfx To Fam-Hacker_Client
 "mv" ~/storage/shared/sfx/ ~/storage/shared/Fam-Hacker_Client/
