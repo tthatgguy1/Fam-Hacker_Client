@@ -41,8 +41,7 @@ cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
 cowsay -r "${newf}" | lolcat
-toilet -f mono9 'Starting Dwnld' -F border | lolcat \-a
-sleep 1.0
+echo " "
 
 ## Aria2 Download
 echo " "
@@ -60,9 +59,10 @@ sleep 1.0
 ## Termux Move
 echo " "
 echo -e "\e[34mDirecting\e[0m \e[33mTermux\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
-cd "/data/data/com.termux/files/home/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/"
+echo " "
+cd ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client
 sleep 2.0
-echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 sleep 3.0
 clear
 
@@ -82,9 +82,11 @@ mpv ~/storage/shared/Nah-Fam-Torrent-Kit/.NFS-Data/sfx/Secret_Sound.mp3 >/dev/nu
 sleep 1.0
 
 ## Removing Files in /data/data/com.termux/files/home/downloads/
-rm -rf /data/data/com.termux/files/home/downloads/*
+rm -rvf /data/data/com.termux/files/home/downloads/*
+echo " "
+echo " "
 echo -e "\e[33mExecution Success\e[0m\e[31m!\e[0m"
-sleep 1.0
+sleep 4.0
 
 ## Quit Menu
 echo -e "\e[95m[\e[0m\e[34mEnter\e[0m\e[95m]\e[0m \e[34mPress The\e[0m \e[36mEnter\e[0m \e[34mKey Or\e[0m \e[36mAny\e[0m \e[34mKey To\e[0m \e[93mQuit\e[0m"
