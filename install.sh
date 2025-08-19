@@ -56,7 +56,7 @@ echo " "
 echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
 
 ## NFS-Data
-"mkdir" ~/storage/shared/NFS-Data
+"mkdir" ~/storage/shared/.NFS-Data
 echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mData\e[0m"
 
 ## ## NFS-Flud-Kit Folder 2
@@ -90,23 +90,27 @@ echo " "
 ## Sound To sfx
 echo " "
 
+## Secret_Sound.mp3
 "mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/sfx/Secret_Sound.mp3
 echo -e "Secret_Sound.mp3 has been moved Successfully" | lolcat --animate -d 30
 echo " "
 
+## MMF.mp3
 "mv" ~/Fam-Hacker_Client/data/MMF.mp3 ~/storage/shared/sfx/MMF.mp3
 echo -e "MMF.mp3 has been moved Successfully" | lolcat --animate -d 30
 echo " "
 
+## TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/sfx/TLOZ-WW_Heart_Container.mp3
 echo -e "TLOZ-WW_Heart_Container.mp3 has been moved Successfully" | lolcat --animate -d 30
 echo " "
 
+## Cooking_Great.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/sfx/Cooking_Great.mp3
 echo -e "Cooking_Great.mp3 has been moved Successfully" | lolcat --animate -d 30
 echo " "
 
-##
+## NFS-Flud-Pit To Nah-Fam-Torrent-Kit
 "mv" ~/storage/shared/NFS-Flud-Pit ~/storage/shared/Nah-Fam-Torrent-Kit
 echo -e "NFS-Flud-Pit has been moved Successfully" | lolcat
 echo " "
