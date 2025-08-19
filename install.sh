@@ -143,18 +143,19 @@ clear
 
 ## Moving Sound Effects
 echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
-echo -e "\e[34m"
 "mv" ~/Fam-Hacker_Client/data/Secret_Sound.mp3 ~/storage/shared/Secret_Sound.mp3
 "mv" ~/Fam-Hacker_Client/data/MMF.mp3 ~/storage/shared/MMF.mp3
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
 "mv" ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
 "mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam's-Torrent-Kit/
-"mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3
-"mv" ~/storage/shared/MMF.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/MMF.mp3
-"mv" ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
-"mv" ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3
+"mv" ~/storage/shared/NFS-Flud-Pit/ ~/storage/shared/Nah-Fam's-Torrent-Kit/
+"mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3
+"mv" ~/storage/shared/MMF.mp3 ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3
+"mv" ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/Cooking_Great.mp3
+"mv" ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Nah-Fam's-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3
 echo " "
+
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
 read
 clear
