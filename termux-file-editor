@@ -7,13 +7,9 @@
 ## Sound 1
 clear
 mpv ~/storage/shared/Fam-Hacker_Client/sfx/Secret_Sound.mp3 >/dev/null 2>/dev/null
-echo " "
-echo " "
 sleep 1.0
 
 ## Torrent Logo & Date
-echo " "
-echo " "
 clear
 echo '
 ─███████╗╔█████╗─███╗───███╗─██╗──██╗╔█████╗─╔██████╗██╗──██╗██████╗─
