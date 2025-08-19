@@ -121,7 +121,7 @@ echo " "
 
 ## Nah-Fam-Torrent-Kit
 "mkdir" ~/storage/shared/Nah-Fam-Torrent-Kit
-echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[33m'\e[0m\e[36ms\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
+echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
 
 ## NFS-Data
 "mkdir" ~/storage/shared/NFS-Data
@@ -158,17 +158,21 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/sfx/TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/sfx/Cooking_Great.mp3
 
+##
+"mv" ~/storage/shared/NFS-Flud-Pit ~/storage/shared/Nah-Fam-Torrent-Kit
+echo -e "NFS-Flud-Pit has been moved Successfully" | lolcat
+
 ## sfx To NFS-Data
-"mv" ~/storage/shared/sfx/ ~/storage/shared/NFS-Data/
+"mv" ~/storage/shared/sfx ~/storage/shared/NFS-Data
+echo -e "sfx has been moved Successfully" | lolcat
 
 ## NFS-Data to Nah-Fam-Torrent-Kit
-"mv' ~/storage/shared/NFS-Data/ ~/storage/shared/Nah-Fam-Torrent-Kit/
+"mv' ~/storage/shared/NFS-Data ~/storage/shared/Nah-Fam-Torrent-Kit
+echo -e "NFS-Data has been moved Successfully" | lolcat
 
 ## Fam-Hacker_Client To Nah-Fam-Torrent-Kit
-"mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam-Torrent-Kit/
-
-##
-"mv" ~/storage/shared/NFS-Flud-Pit/ ~/storage/shared/Nah-Fam-Torrent-Kit/
+"mv" ~/storage/shared/Fam-Hacker_Client ~/storage/shared/Nah-Fam-Torrent-Kit
+echo -e "Fam-Hacker_Client has been moved Successfully" | lolcat
 
 ## Cowsay & End Prompt
 echo " "
