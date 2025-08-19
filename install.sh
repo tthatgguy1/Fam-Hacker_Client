@@ -183,7 +183,7 @@ clear
 echo " "
 date +"%l:%M:%S %p" | lolcat --animate -d 15
 echo " "
-cowsay -f 'NFS Torrent Kit Set-Up Is Complete' -r | lolcat
+cowsay -f "NFS Torrent Kit Set-Up Is Complete" -r | lolcat
 echo " "
 echo -e "\e[34mYou can now use\e[0m \e[36mTermux\e[0m \e[34mto download\e[0m \e[93mtorrent\e[0m \e[34mfiles\e[0m"
 echo " " 
