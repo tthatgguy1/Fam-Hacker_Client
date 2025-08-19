@@ -108,7 +108,8 @@ echo " "
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2.0
 echo " "
-echo -e "\e[34mCreating a new\e[0m \e[36mbin\e[0m \e[34mfolder\e[0m"
+echo " "
+echo -e "\e[34mCreating necessary\e[0m \e[36mdirectories\e[0m \e[34mfor this script\e[0m\e[36m.\e[0m"
 echo " "
 echo " "
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
