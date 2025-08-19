@@ -102,12 +102,16 @@ clear
 
 ## Creating Termux\033[34m-\033[0mFile-Editor Script
 echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
 echo -e "\033[1;34mCreating\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mscript\033[0m"
 echo " "
 echo " "
+echo -e "\033[1;34mCompleting\033[0m \033[1;36mtermux\033[0m\033[1;35m-\033[0m\033[1;36mfile\033[0m\033[1;35m-\033[0m\033[1;36meditor\033[0m \033[1;34mfile\033[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 echo " "
-echo -e "\e[34mCompleting\e[0m \e[91mTermux\e[0m\e[93m-\e[0m\e[91mfile\e[0m\e[93m-\e[0m\e[93meditor\e[0m \e[34mscript\e[0m"
+sleep 2.0
+echo " "
 echo -e "\e[34m"
 echo " "
 "chmod" +x termux-file-editor
@@ -119,7 +123,7 @@ echo " "
 sleep 3
 
 ## Moving Sound Effects
-echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \e[91mFam\e[0m\e[93m-\e[0m\e[91mHacker\e[0m\e[93m_\e[0m\e[91mClient\e[0m \e[34mfolder\e[0m"
+echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\033[0m\033[1;35m-\033[0m\033[1;36mHacker\033[0m\033[1;35m_\033[0m\033[1;36mClient\033[0m"
 echo " "
 echo -e "\e[34m"
 echo " "
