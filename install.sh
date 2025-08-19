@@ -61,6 +61,20 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 read
 clear
 
+## Install Cowsay Termux
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mCowsay\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+echo -e "\e[34m"
+"pkg" install cowsay -y
+echo -e " \e(B\e[m"
+sleep 2.0
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+read
+clear
+
 ## Request Storage Access
 echo " "
 date +"%l:%M:%S %p" | lolcat
@@ -88,6 +102,8 @@ sleep 2.0
 ## Making Directories
 echo " "
 echo " "
+"mkdir" ~/storage/shared/Nah-Fam's-Torrent-Kit/
+echo -e "\e[32mCreated\e[0m \e[36mNah\e[0m\e[35m-\e[0m\e[36mFam\e[0m\e[33m'\e[0m\e[36ms\e[0m\e[35m-\e[0m\e[36mTorrent\e[0m\e[35m-\e[0m\e[36mKit\e[0m"
 "mkdir" ~/storage/shared/NFS-Flud-Pit
 echo -e "\e[32mCreated\e[0m \e[36mNFS\e[0m\e[35m-\e[0m\e[36mFlud\e[0m\e[35m-\e[0m\e[36mPit\e[0m"
 "mkdir" ~/storage/shared/Fam-Hacker_Client
@@ -133,6 +149,7 @@ echo -e "\e[34m"
 "mv" ~/Fam-Hacker_Client/data/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/TLOZ-WW_Heart_Container.mp3
 "mv" ~/Fam-Hacker_Client/data/Cooking_Great.mp3 ~/storage/shared/Cooking_Great.mp3
 "mv" ~/storage/shared/sfx ~/storage/shared/Fam-Hacker_Client/
+"mv" ~/storage/shared/Fam-Hacker_Client/ ~/storage/shared/Nah-Fam's-Torrent-Kit/
 "mv" ~/storage/shared/TLOZ-WW_Heart_Container.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/TLOZ-WW_Heart_Container.mp3
 "mv" ~/storage/shared/MMF.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/MMF.mp3
 "mv" ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Fam-Hacker_Client/sfx/Cooking_Great.mp3
