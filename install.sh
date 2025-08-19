@@ -166,8 +166,6 @@ echo -e "\e[34mMoving\e[0m \e[36mSound Effects\e[0m \e[34mto\e[0m \033[1;36mFam\
 "mv" ~/storage/shared/MMF.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/MMF.mp3
 "mv" ~/storage/shared/Cooking_Great.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Cooking_Great.mp3
 "mv" ~/storage/shared/Secret_Sound.mp3 ~/storage/shared/Nah-Fam-Torrent-Kit/Fam-Hacker_Client/sfx/Secret_Sound.mp3
-
-
 echo " "
 echo "Execution Complete" | lolcat --animate -d 100
 
