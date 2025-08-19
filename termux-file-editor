@@ -41,7 +41,7 @@ date +"%l:%M:%S %p" | lolcat --animate -d 15
 cd downloads
 newf=$(ls -Art | tail -n 1)
 echo " "
-cowsay -r "${newf}" | lolcat
+cowsay -f $(ls /data/data/com.termux/files/usr/share/cowsay/cows/ | shuf -n 1) "${newf}" | lolcat
 echo " "
 
 ## Aria2 Download
