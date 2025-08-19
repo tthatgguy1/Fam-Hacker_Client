@@ -114,12 +114,12 @@ echo " "
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 sleep 2.0
 echo " "
-echo -e "\e[34m"
+echo " "
 "mkdir" ~/storage/shared/Fam-Hacker_Client
-echo -e "\e[34mCreated\e[0m \e[31mFam\e[0m\e[33m-\e[0m\e[31mHacker\e[0m\e[33m_\e[0m\e[33mClient\e[0m"
+echo - e "\e[32mCreated\e[0m \e[36mFam\e[0m\e[35m-\e[0m\e[36mHacker\e[0m\e[35m_\e[0m\e[36mClient\e[0m"
 sleep 2.0
 "mkdir" ~/bin
-echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m
+echo -e "\e[32mCreated\e[0m \e[36mbin\e[0m"
 sleep 2.0
 "mkdir" ~/storage/shared/sfx
 echo -e "\e[32mCreated\e[0m \e[36msfx\e[0m"
