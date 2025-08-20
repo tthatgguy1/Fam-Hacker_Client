@@ -22,7 +22,7 @@ echo '
 ─██║██║╚██╗██║╚════██║───██║───██╔══██║██║─────██║─────██╔══╝──██╔══██╗
 ─██║██║─╚████║███████║───██║───██║──██║███████╗███████╗███████╗██║──██║
 ─╚═╝╚═╝──╚═══╝╚══════╝───╚═╝───╚═╝──╚═╝╚══════╝╚══════╝╚══════╝╚═╝──╚═╝
----------------------------[Nah-Fam_Studios]------------------------------' | lolcat
+---------------------------[Nah-Fam_Studios]------------------------------' | lolcat 
 echo " "
 sleep 5.0
 clear
@@ -38,7 +38,7 @@ clear
 ## Request Storage Access
 echo " "
 date +"%l:%M:%S %p" | lolcat
-echo " "
+4echo " "
 echo -e "\e[34mYou\e[0m \e[36mwill\e[0m \e[34mneed to give\e[0m \e[36mTermux\e[0m \e[34mstorage\e[0m \e[92mpermissions\e[0m \e[34mto continue\e[0m"
 termux-setup-storage | lolcat
 sleep 2.0
@@ -149,6 +149,50 @@ echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0
 sleep 3.5
 clear
 
+## Install mpv
+echo " "
+date +"%l:%M:%S %p"
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mmpv\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"pkg" install mpv -y | lolcat
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
+clear
+
+## Install Ruby
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mRuby\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"pkg" install ruby -y | lolcat
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
+clear
+
+## Install lolcat
+echo " "
+date +"%l:%M:%S %p"
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mlolcat\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"gem" install lolcat -y | lolcat
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
+clear
+
+## Install Python-Pip
+echo " "
+date +"%l:%M:%S %p" | lolcat
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mPython\e[33m-\e[0m\e[36mPip\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"pkg" install python-pip -y | lolcat
+echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
+clear
+
 ## Install Aria2 Termux
 echo " "
 date +"%l:%M:%S %p" | lolcat
@@ -156,9 +200,8 @@ echo " "
 echo -e "\e[34mNow installing\e[0m \e[36maria2c\e[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 "pkg" install aria2 -y | lolcat
-sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-sleep 3.5
+sleep 1.5
 clear
 
 ## Install Cowsay Termux
@@ -168,9 +211,26 @@ echo " "
 echo -e "\e[34mNow installing\e[0m \e[36mCowsay\e[0m"
 mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
 "pkg" install cowsay -y | lolcat
-sleep 2.0
 echo -e "\e[35m[\e[0m\e[36mPress\e[0m\e[35m]\e[0m \e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
-sleep 3.5
+sleep 1.5
+clear
+
+## Install Python ffmpeg
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36mffmpeg\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"pkg" install python ffmpeg -y | lolcat
+\e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
+clear
+
+## Install yt-dlp
+echo " "
+echo -e "\e[34mNow installing\e[0m \e[36myt\e[0m\e[34m-\e[0m\e[36mdlp\e[0m"
+mpv ~/Fam-Hacker_Client/data/Cooking_Great.mp3 >/dev/null 2>/dev/null
+"pip" install yt-dlp -y | lolcat
+\e[34mPress\e[0m \e[36many\e[0m \e[34mbutton to continue\e[0m"
+sleep 1.5
 clear
 
 ## Create Termux-File-Editor Script
